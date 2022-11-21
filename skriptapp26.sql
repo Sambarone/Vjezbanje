@@ -2,7 +2,7 @@
 # Izvođenje naredbi na serveru
 # Otvoriti CMD
 # Zaljepiti sljedeću naredbu bez prvog hash znaka
-# c:\xampp\mysql\bin\mysql -uroot < C:\Users\Samba\Documents\GitHub\EdunovaPP26\SQL\skriptapp26.sql
+# c:\xampp\mysql\bin\mysql -uroot < C:\Users\Samba\Documents\GitHub\vjezbanje\Vjezbanje\skriptapp26.sql
 
 
 
@@ -64,7 +64,9 @@ alter table polaznik add foreign key (osoba) references osoba(sifra);
 alter table predavac add foreign key (osoba) references osoba(sifra);
 
 
-
+#-unos podataka u tablicu smjer
+insert into smjer (sifra,naziv,cijena,upisnina,trajanje,certificiran)
+values (null,'PHP26',6950,500,130,false);
 
 
 
