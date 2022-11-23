@@ -84,16 +84,27 @@ values (null,'Marko','Marković','marko.markovic@gmail.com'),
 (null,'Marija','Marić','marija.maric@gmail.com'),
 (null,'Ana','Anić','ana.anic@gmail.com'),
 (null,'Ena','Dalić','ena-dalic@gmail.com'),
-(null,'Tomislav','Jakopec','t.jakopec@gmail.com');
+(null,'Tomislav','Jakopec','t.jakopec@gmail.com'),
+(null,'Ivan','Sambol','ivan.sambol@skole.hr')
+;
 
 #unos podataka u tablicu polaznik
 insert into polaznik (osoba)
 values (1),(2),(3),(4),(5),(6);
 
 
-#unos podataka u tablicu polaznik
+#unos podataka u tablicu predavac
 insert into predavac(osoba)
 values (7);
 
 
+#ažuriranje podataka u tablici osoba
+update osoba set oib =2762757300
+where sifra =1;
+
+#ažuriranje podatka u tablici grupa, gdje smo svim grupama postavili jednog predavača jer nismo stavili uvijet where
+update grupa set predavac=1;
+
+#brisanje podataka u tablici smjer
+delete from smjer where sifra=3;
 
