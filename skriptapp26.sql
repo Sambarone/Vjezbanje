@@ -85,7 +85,14 @@ values (null,'Marko','Marković','marko.markovic@gmail.com'),
 (null,'Ana','Anić','ana.anic@gmail.com'),
 (null,'Ena','Dalić','ena-dalic@gmail.com'),
 (null,'Tomislav','Jakopec','t.jakopec@gmail.com'),
-(null,'Ivan','Sambol','ivan.sambol@skole.hr')
+(null,'Ivan','Sambol','ivan.sambol@skole.hr'),
+(null,'Ivan','Maričić','ivanmaricic@gmail.com'),
+(null,'Goran','Josipović','josipovic.g@gmail.com'),
+(null,'Andrej','Matić','a.maric@gmail.com'),
+(null,'Ana','Medaković','ana.m@gmail.com'),
+(null,'Janja','Gilja','j.gilja@gmail.com'),
+(null,'Tatjana','Jaurić','t.juric@gmail.com'),
+(null,'Sanja','Pocuca','sanja.p@skole.hr')
 ;
 
 #unos podataka u tablicu polaznik
@@ -107,4 +114,11 @@ update grupa set predavac=1;
 
 #brisanje podataka u tablici smjer
 delete from smjer where sifra=3;
+
+#izlistavanje osoba po određenim kriterijima pomoću operatora and, or, not
+# /*select *from osoba */
+where ime='Ivan' and prezime='Sambol';
+where ime='Ivan' and sifra=9;
+where ime='Ivan' or ime='Ana';
+where not(ime='Ivan' or ime='Ana');
 
