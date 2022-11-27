@@ -1,7 +1,11 @@
-﻿# Klijent pokrenuti s --default-character-set=utf8 
+﻿# c:\xampp\mysql\bin\mysql -uroot --default-character-set=utf8 <C:\Users\Samba\Documents\GitHub\vjezbanje\Vjezbanje\Zadaci_iz_skripte\KUD_20.sql
+
+
 drop database if exists knjiznica;
 create database knjiznica DEFAULT CHARACTER SET utf8  DEFAULT COLLATE utf8_general_ci;
 use knjiznica;
+
+
 CREATE TABLE autor(
    sifra 			int NOT NULL PRIMARY KEY,
    ime			  varchar(50) NOT NULL,
@@ -7479,3 +7483,31 @@ insert into katalog (sifra, naslov, autor, izdavac,mjesto) values (3218, 'ODVOJE
 insert into katalog (sifra, naslov, autor, izdavac,mjesto) values (3219, 'NOVI SVIJET DUHA', 18993, 408, 69698);
 insert into katalog (sifra, naslov, autor, izdavac,mjesto) values (3220, 'RUM PUNČ', 15903, 479, 70173);
 insert into katalog (sifra, naslov, autor, izdavac,mjesto) values (3221, 'KRALJICA ŠKOLE', 19299, 441, 71323);
+
+
+#izdvajanje pojedinih kolona iz tablice autor
+/*
+select prezime, datumrodenja from autor;
+select prezime, datumrodenja, prezime, ime from autor;
+select prezime, ime from autor;
+redosljed nije bitan
+
+konstanta
+select 500, naziv, aktivan from izdavac;
+
+zamjena naziva koloni
+select  naziv as 'ime_idzavaca',500 as 'broj' from izdavac;
+
+slučajna vrijednost radn() od nula do 1
+select naslov, rand() as koeficijent from katalog;
+
+trenutni datum i vrijeme
+select now();
+
+izdvajanje na temelju dijela u nazivu
+select *from mjesto
+where naziv like '%ić';
+
+*/
+
+
