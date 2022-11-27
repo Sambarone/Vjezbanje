@@ -20,7 +20,7 @@ create table nastup (
     sifra int not null primary key auto_increment,
     naziv varchar(50) not null,
     mjesto int,
-    broj_clanova int
+    datum date
 );
 
 create table  mjesto (
@@ -42,3 +42,33 @@ alter table akcija add foreign key (clan) references clan(sifra);
 alter table akcija add foreign key (nastup) references nastup(sifra);
 
 alter table  nastup  add foreign key (mjesto) references mjesto (sifra);
+
+#unos članova
+insert into clan (sifra, ime,prezime,godina)
+values (null, 'Marko','Marić',23),
+(null, 'Janko','Marić',23),
+(null, 'Ivan','Pavlović',23),
+(null, 'Marija','Sakić',23),
+(null, 'Mirko','Ljuboja',23),
+(null, 'Jasna','Garić',23),
+(null, 'Jelena','Ilić',23),
+(null, 'Marko','Majer',23);
+
+#unos mjesta
+insert into mjesto (sifra,naziv,drzava,post_broj)
+values(null,'Ivankovo','Hrvatska',32281),
+(null,'Zagreb','Hrvatska',10000),
+(null,'Vitez','BiH',null),
+(null,'Vinkovci','Hrvatska',32000),
+(null,'Berlin','Njemačka',null),
+(null,'Osijek','Hrvatska',31000),
+(null,'Retkovci','Hrvatska',32283);
+
+
+insert into nastup (sifra,naziv,mjesto,datum)
+values (null,'Sve se čaje okupiše',1,'2022-05-11'),
+(null,'Vinkovacke jeseni',4,'2022-09-18'),
+(null,'Oktoberfest',5,'2022-05-11'),
+(null,'Bosansko sijelo',3,'2021-03-30'),
+(null,'Slavonija u srcu',6,'2020-07-11'),
+(null,'Susret dramskih amatera',7,'2022-02-21');
