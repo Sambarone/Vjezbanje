@@ -116,9 +116,14 @@ update grupa set predavac=1;
 delete from smjer where sifra=3;
 
 #izlistavanje osoba po određenim kriterijima pomoću operatora and, or, not
-# /*select *from osoba */
+/*select *from osoba 
+
 where ime='Ivan' and prezime='Sambol';
 where ime='Ivan' and sifra=9;
 where ime='Ivan' or ime='Ana';
 where not(ime='Ivan' or ime='Ana');
+
+#upotreba drugih operatora (like), (%), 
+where ime like '%ja',
+where ime like '%ja%';*/
 
