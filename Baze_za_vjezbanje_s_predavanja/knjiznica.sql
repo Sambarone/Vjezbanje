@@ -7508,6 +7508,9 @@ izdvajanje na temelju dijela u nazivu
 select *from mjesto
 where naziv like '%ić';
 
+izdvajanje između dvije vrijednosti korištenjem operatora 'i' i 'between'
+select *from mjesto
+where postanskiBroj between 20000 and 340000 ;
 */
 
 
