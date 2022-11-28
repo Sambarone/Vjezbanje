@@ -46,13 +46,13 @@ alter table  nastup  add foreign key (mjesto) references mjesto (sifra);
 #unos članova
 insert into clan (sifra, ime,prezime,godina)
 values (null, 'Marko','Marić',23),
-(null, 'Janko','Marić',23),
-(null, 'Ivan','Pavlović',23),
-(null, 'Marija','Sakić',23),
-(null, 'Mirko','Ljuboja',23),
-(null, 'Jasna','Garić',23),
-(null, 'Jelena','Ilić',23),
-(null, 'Marko','Majer',23);
+(null, 'Janko','Marić',22),
+(null, 'Ivan','Pavlović',28),
+(null, 'Marija','Sakić',32),
+(null, 'Mirko','Ljuboja',14),
+(null, 'Jasna','Garić',42),
+(null, 'Jelena','Ilić',38),
+(null, 'Marko','Majer',11);
 
 #unos mjesta
 insert into mjesto (sifra,naziv,drzava,post_broj)
@@ -72,3 +72,11 @@ values (null,'Sve se čaje okupiše',1,'2022-05-11'),
 (null,'Bosansko sijelo',3,'2021-03-30'),
 (null,'Slavonija u srcu',6,'2020-07-11'),
 (null,'Susret dramskih amatera',7,'2022-02-21');
+
+
+# upotreba operatera between
+select *from clan
+where godina between '20' and '40';
+
+
+
