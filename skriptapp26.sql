@@ -122,8 +122,18 @@ where ime='Ivan' and prezime='Sambol';
 where ime='Ivan' and sifra=9;
 where ime='Ivan' or ime='Ana';
 where not(ime='Ivan' or ime='Ana');
-
-#upotreba drugih operatora (like), (%), 
+*/
+#upotreba drugih operatora (like), (%), in
+/*
 where ime like '%ja',
-where ime like '%ja%';*/
+where ime like '%ja%';
+
+where prezime like '%ić%' and ime ='Ana';
+
+select ime as evanđelist from osoba 
+where ime in ('Ivan', 'Marko','Matej','Luka');
+
+
+*/
+
 
