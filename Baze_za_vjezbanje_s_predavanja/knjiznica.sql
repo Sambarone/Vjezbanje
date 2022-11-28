@@ -1,4 +1,4 @@
-﻿# c:\xampp\mysql\bin\mysql -uroot --default-character-set=utf8 <C:\Users\Samba\Documents\GitHub\vjezbanje\Vjezbanje\Zadaci_iz_skripte\KUD_20.sql
+﻿# c:\xampp\mysql\bin\mysql -uroot --default-character-set=utf8 <C:\Users\Samba\Documents\GitHub\vjezbanje\Vjezbanje\Baze_za_vjezbanje_s_predavanja\knjiznica.sql
 
 
 drop database if exists knjiznica;
@@ -7513,4 +7513,10 @@ select *from mjesto
 where postanskiBroj between 20000 and 340000 ;
 */
 
+#dodavanje mene kao autora dijela 
+insert into autor (sifra,ime, prezime, datumrodenja)
+values (4,'Ivan','Sambol', '1988-10-13');
+
+# brisanje naslova koji govore o smrti 
+delete from katalog where  naslov like '%smrt%';
 
