@@ -47082,3 +47082,22 @@ COMMIT;
 SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
+
+
+#spajanje više tablica, npr gdje je glumio Tom Miranda
+/*
+select a.title, c.first_name,c.last_name
+from film a
+inner join film_actor b on b.film_id =a.film_id
+inner join actor c on c.actor_id =b.actor_id 
+where c.first_name='Tom'and c.last_name ='Miranda'; */
+
+#popis filmova koje je gledala mary smith 
+/*
+select d.title, d.`length`
+from customer a
+inner join rental b on a.customer_id  =b.customer_id 
+inner join inventory c on c.inventory_id  =b.inventory_id 
+inner join film d on d.film_id =c.film_id 
+where a.first_name ='Mary' and a.last_name='Smith';
+*/
