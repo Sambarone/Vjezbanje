@@ -1,4 +1,4 @@
-# c:\xampp\mysql\bin>mysql -uroot  --default_character_set=utf8  <C:\Users\Samba\Documents\GitHub\vjezbanje\Vjezbanje\Zadaci_iz_skripte\Kolokvij_1.sql
+# c:\xampp\mysql\bin>mysql -uroot  --default_character_set=utf8  <C:\Users\Samba\Documents\GitHub\vjezbanje\Vjezbanje\Baze_za_vjezbanje_s_predavanja\Kolokvij_1.sql
 
 drop database if exists rodbina;
 create database rodbina default charset utf8;
@@ -127,3 +127,19 @@ insert into sestra_svekar (sifra,sestra,svekar)
 values (null,1,1),
 (null,2,2),
 (null,3,3);
+
+/*
+
+# postavlanje vrijednosti svim curama tablice gustoća na 15.77
+update cura set gustoća =15.77;
+
+#brisanje svih mladica koji imaju više od 15.78 kuna
+delete from mladic where kuna >15.78;
+
+
+# izslistavanje kratkih majica svih žena koje u hlačama imaju vrijednost ana
+select kratkamajica from zena
+where hlace like '%ana';
+	
+
+*/
