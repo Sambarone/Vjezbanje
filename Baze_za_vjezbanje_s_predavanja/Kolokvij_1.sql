@@ -126,7 +126,7 @@ values (null,'plava',3,'crna',5.3,44,'zelena'),
 insert into sestra_svekar (sifra,sestra,svekar)
 values (null,1,1),
 (null,2,2),
-(null,3,3);
+(null,1,3);
 
 /*
 
@@ -156,6 +156,7 @@ order by e.hlace desc;
 select a.haljina, a.maraka 
 from 
 sestra a
-left join sestra_svekar b on b.sestra =a.sifra;
+left join sestra_svekar b on b.sestra=a.sifra 
+where b.sestra is null;
 
 */
