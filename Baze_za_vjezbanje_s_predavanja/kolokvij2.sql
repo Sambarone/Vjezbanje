@@ -98,7 +98,7 @@ values (null,1,'plava',2),
 
 insert into cura (sifra,haljina,drugiputa,suknja,narukvica,introvertno,majica,decko)
 values (null,'plava','2022-12-01','duga','zlatna',2,'na bratele',1),
-(null,'zuta','2019-01-01','kratka','srebrna',2,'bez rukava',2),
+(null,'zuta',null,'kratka','srebrna',2,'bez rukava',2),
 (null,'crvena','2001-11-01','do koljena','bizuterija',2,'bez rukava',3);
 
 insert into neprijatelj (sifra,majica,haljina,lipa,modelnaocala,kuna,jmbag,cura)
@@ -123,6 +123,8 @@ delete from brat where ogrlica!=14;
 select suknja  from cura
 where drugiputa =null;
 
+
+
 select a.novcica , f.neprijatelj, e.haljina 
 from zarucnica a
 inner join decko_zarucnica b on a.sifra =b.zarucnica 
@@ -130,9 +132,8 @@ inner join decko c on c.sifra =b.decko
 inner join cura d on d.decko =c.sifra 
 inner join neprijatelj e on e.cura =d.sifra 
 inner join brat f on f.neprijatelj =e.sifra 
-where d.drugiputa and c.vesta like '%ba'
+where d.drugiputa!=null and c.vesta like '%ba'
 order by e.haljina desc;
-
 
 select a.vesta,a.asocijalno 
 from decko a
