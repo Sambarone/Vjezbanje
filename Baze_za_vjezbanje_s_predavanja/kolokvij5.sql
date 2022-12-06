@@ -87,7 +87,7 @@ alter table ostavljena add foreign key (punica) references punica (sifra);
 
 
 insert into svekar (sifra,bojakose,majica,carape,haljina,narukvica,eura) 
-values (null,'crna','plava','bijele','roza',12, 13.5),
+values (null,'crna','labava','bijele','roza',12, 13.5),
 (null,'čelav','crna','duge','bijela',11, 113.5),
 (null,'sijed','siva','stopalice','crna',10, 133.5);
 
@@ -125,11 +125,11 @@ where prviputa is null;
 
 select a.asocijalno ,f.stilfrizura , e.nausnica 
 from cura a
-inner join svekar_cura b on b.cura =a.sifra 
-inner join svekar c on b.svekar =c.sifra 
-inner join punac d on d.svekar =c.sifra 
-inner join punica e on e.punac =d.sifra 
-inner join ostavljena f on f.punica =e.sifra 
+left join svekar_cura b on b.cura =a.sifra 
+left join svekar c on b.svekar =c.sifra 
+left join punac d on d.svekar =c.sifra 
+left join punica e on e.punac =d.sifra 
+left join ostavljena f on f.punica =e.sifra 
 where d.prviputa is not null and c.majica like '%ba%'
 order by e.nausnica asc;
 
