@@ -104,6 +104,9 @@ values (1),(2),(3),(4),(5),(6);
 insert into predavac(osoba)
 values (7);
 
+#unos podataka u tablicu clan
+insert into clan (grupa,polaznik)
+values(1,1),(1,2),(1,3),(1,4),(1,5),(1,6);
 
 #ažuriranje podataka u tablici osoba
 update osoba set oib =2762757300
