@@ -1,0 +1,26 @@
+/*SELEKTOR elementa*/
+body{
+    background-color: rgb(72, 83, 169);
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* SELEKTOR klase*/
+.plava{
+    color: #00f;
+    text-indent: 0.8rem;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid red;
+
+}
+
+
+/*SELEKTOR identifikacije*/
+#veliko{
+    font-size: 2rem;
+}
+
