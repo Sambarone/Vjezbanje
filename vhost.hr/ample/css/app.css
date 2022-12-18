@@ -1,0 +1,12 @@
+.white-box {
+    background: rgb(158, 99, 99);
+    padding: 25px;
+    margin-bottom: 30px;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+    color: #219a5e;
+    background: #fff;
+}
