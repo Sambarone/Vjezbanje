@@ -25,3 +25,25 @@ h1{
     font-size: 2rem;
 }
 
+
+.box {
+    background-color: rebeccapurple;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .box:hover {
+    animation-name: rotate;
+    animation-duration: 0.7s;
+    animation-delay: 1s;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
