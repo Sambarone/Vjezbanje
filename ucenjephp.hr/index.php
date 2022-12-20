@@ -17,7 +17,7 @@
 
       
     </div>
-    <?php include_once 'podnozje'; ?>
+    <?php include_once 'podnozje.php'; ?>
 
 
     <?php     include_once 'skripte.php';     ?>
