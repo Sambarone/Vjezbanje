@@ -8,15 +8,16 @@
 
     <div class="grid-container">
 
-    <?php   include_once 'izbornik.php';  ?>
+    <?php   require_once 'izbornik.php';  ?>
       <div class="grid-x grid-padding-x">
         <div class="large-12 cell">
-          <h1>Welcome to Foundation</h1>
+          <div class='callout' id='tijelo'>Koristite gornji izbornik</div>
         </div>
       </div>
 
       
     </div>
+    <?php include_once 'podnozje'; ?>
 
 
     <?php     include_once 'skripte.php';     ?>
