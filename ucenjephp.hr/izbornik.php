@@ -13,6 +13,7 @@
         <ul class="submenu menu vertical" data-submenu>
           <li><a href="helloworld.PHP">Hello world</a></li>
           <li><a href="kombinacijahtmlphp.PHP">Kombinacija HTML PHP</a></li>
+          <li><a href="ulazniparametri.PHP">Ulazni parametri</a></li>
         </ul>
       </li>
       

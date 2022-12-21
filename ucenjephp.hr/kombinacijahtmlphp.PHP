@@ -4,17 +4,23 @@
   <head>
     <?php      include_once 'head.php';       ?>
   </head>
-<body>
+<body <?php 
+//dobra praksa je otvoriti i zatvoriti PHP unutar atributa elemena
+echo 'style="background-color:grey"';
+
+?>
+>
 
     <div class="grid-container">
 
     <?php   require_once 'izbornik.php';  ?>
       <div class="grid-x grid-padding-x">
         <div class="large-12 cell">
-          <div class='callout' id='tijelo'>
+          <!-- doba praksa je otvoriti i zaatvoriti php unutar vrijednosti atributa-->
+          <div class="<?php ='callout'; ?> id='tijelo'>
             
-          
-          XXXXXX
+          <!-- doba praksa je otvoriti i zatvoriti PHP unutar istog elemena-->
+          <?php echo 'PHP unutar istog elementa' ?>
         
         </div>
         </div>
