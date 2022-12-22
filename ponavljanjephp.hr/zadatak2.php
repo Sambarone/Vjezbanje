@@ -11,21 +11,14 @@
       <div class="grid-x grid-padding-x">
         <div class="large-12 cell">
           <div class='callout' id='tijelo'>
-          <?php
-            echo 'Hello world<br>', PHP_EOL;
-            
-            echo "Edunova\n";
-
-            echo '<p>' . 3 . '</p>';
-
-            print '<p>Osijek</p>';
-
-            echo 'O\'Neal';
-
-            echo '<p style="color:red;">X</p>';
-          ?>
+         
+          <p style="text-transform: uppercase; color:red ">
+         <?php
+         
+          echo $_GET['grad'];
           
-
+          ?>
+          </p>
           </div>
 
         </div>
