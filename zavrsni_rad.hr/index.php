@@ -10,6 +10,14 @@
       <div class='gornji'>
         <h1>Karte.hr</h1>
       </div>
+
+      <ul class="menu align-center">
+  <li><a href="#">One</a></li>
+  <li><a href="#">Two</a></li>
+  <li><a href="#">Three</a></li>
+  <li><a href="#">Four</a></li>
+</ul>
+
     </div>
     <?php include_once 'podnozje.php' ?>
   </body>

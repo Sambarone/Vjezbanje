@@ -5,7 +5,8 @@ body{
 .gornji
 {
     background-color: rgba(208, 186, 198, 0.867);
+    max-height: 200px;
     min-height: 150px;
     width: 100%;
-    text-align: ;
+    padding-top: 30px;
 }
