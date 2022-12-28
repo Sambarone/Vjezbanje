@@ -2,11 +2,31 @@ body{
     background-color: rgba(229, 114, 175, 0.867);
 }
 
-.gornji
+.callout
 {
     background-color: rgba(208, 186, 198, 0.867);
-    max-height: 200px;
     min-height: 150px;
     width: 100%;
     padding-top: 30px;
+    margin-top: 10px;
+}
+
+.button
+{
+   margin-right: 5px;
+}
+
+.orbit{
+    background-color: rgba(98, 165, 178, 0.867);
+    min-height: 300px;
+    margin-top: 10px;
+
+}
+
+.orbit-bullets{
+    position: relative;
+}
+
+.Dog{
+    margin-top: 10px;
 }

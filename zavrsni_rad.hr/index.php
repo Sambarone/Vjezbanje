@@ -7,16 +7,22 @@
 <body>
 
     <div class="grid-container">
-      <div class='gornji'>
-        <h1>Karte.hr</h1>
+      
+        
+      <div class="callout clearfix">
+            <h1>Karte.hr</h1>
+              <a class="button float-right">Prijava</a>
+              <a class="button float-right">Registracija</a>
       </div>
+     
+     <?php  include_once 'izbornik.php' ?>
 
-      <ul class="menu align-center">
-  <li><a href="#">One</a></li>
-  <li><a href="#">Two</a></li>
-  <li><a href="#">Three</a></li>
-  <li><a href="#">Four</a></li>
-</ul>
+     <?php  include_once 'slide.php' ?>
+
+     <?php include_once 'dogadjaji.php' ?>
+
+
+
 
     </div>
     <?php include_once 'podnozje.php' ?>
