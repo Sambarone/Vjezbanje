@@ -8,15 +8,24 @@
     <ul class="dropdown menu" data-dropdown-menu>
       <li class="menu-text">Site Title</li>
       <li class="has-submenu">
-        <a href="#0">One</a>
+        <a href="#0">Događaji</a>
         <ul class="submenu menu vertical" data-submenu>
-          <li><a href="#0">One</a></li>
-          <li><a href="#0">Two</a></li>
-          <li><a href="#0">Three</a></li>
+          <li><a href="#0">Sport</a></li>
+          <li><a href="#0">Glazba</a></li>
+          <li><a href="#0">Kultura</a></li>
         </ul>
       </li>
-      <li><a href="#0">Two</a></li>
-      <li><a href="#0">Three</a></li>
+      <li class="has-submenu">
+        <a href="#0">Lokacija</a>
+        <ul class="submenu menu vertical" data-submenu>
+          <li><a href="#0">Zagreb</a></li>
+          <li><a href="#0">Osijek</a></li>
+          <li><a href="#0">Rijeka</a></li>
+          <li><a href="#0">Split</a></li>
+          <li><a href="#0">Vinkovci</a></li>
+        </ul>
+      </li>
+      
     </ul>
   </div>
   <div class="top-bar-right">
