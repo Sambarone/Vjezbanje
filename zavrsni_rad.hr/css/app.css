@@ -35,3 +35,15 @@ body{
     display: -webkit-box;
 }
 
+.media-object
+{
+    margin-top: 5px;
+
+ }
+
+ #najava{
+
+    color: blue; border-right: 5px solid red;
+    margin-right: 5px;
+ }
+
