@@ -11,6 +11,28 @@
 
 <div class="media-object">
   <div class="media-object-section" id="najava">
+    <h2>04.02.</h2>
+    <h3>srijeda</h3>
+  </div>
+  <div class="media-object-section">
+    <h4>Tamburaška rapsodija</h4>
+    <p>I'm going to improvise. Listen, there's something you should know about me... about inception. An idea is like a virus, resilient, highly contagious. The smallest seed of an idea can grow. It can grow to define or destroy you.</p>
+  </div>
+</div>
+
+<div class="media-object">
+  <div class="media-object-section" id="najava">
+    <h2>10.02.</h2>
+    <h3>nedjelja</h3>
+  </div>
+  <div class="media-object-section">
+    <h4>Mačak u čizmama</h4>
+    <p>I'm going to improvise. Listen, there's something you should know about me... about inception. An idea is like a virus, resilient, highly contagious. The smallest seed of an idea can grow. It can grow to define or destroy you.</p>
+  </div>
+</div>
+
+<div class="media-object">
+  <div class="media-object-section" id="najava">
     <h2>24.12.</h2>
     <h3>srijeda</h3>
   </div>
@@ -22,31 +44,22 @@
 
 <div class="media-object">
   <div class="media-object-section" id="najava">
-    <img src= "https://placeimg.com/200/200/people" alt="">
+    <h2>24.12.</h2>
+    <h3>srijeda</h3>
   </div>
   <div class="media-object-section">
-    <h4>Dreams feel real while we're in them.</h4>
+    <h4>Hrvatska - Tunis</h4>
     <p>I'm going to improvise. Listen, there's something you should know about me... about inception. An idea is like a virus, resilient, highly contagious. The smallest seed of an idea can grow. It can grow to define or destroy you.</p>
   </div>
 </div>
 
 <div class="media-object">
-  <div class="media-object-section">
-    <img src= "https://placeimg.com/200/200/people" alt="">
+  <div class="media-object-section" id="najava">
+    <h2>24.12.</h2>
+    <h3>srijeda</h3>
   </div>
   <div class="media-object-section">
-    <h4>Dreams feel real while we're in them.</h4>
+    <h4>Progledaj srcem</h4>
     <p>I'm going to improvise. Listen, there's something you should know about me... about inception. An idea is like a virus, resilient, highly contagious. The smallest seed of an idea can grow. It can grow to define or destroy you.</p>
   </div>
 </div>
-
-<div class="media-object">
-  <div class="media-object-section">
-    <img src= "https://placeimg.com/200/200/people" alt="">
-  </div>
-  <div class="media-object-section">
-    <h4>Dreams feel real while we're in them.</h4>
-    <p>I'm going to improvise. Listen, there's something you should know about me... about inception. An idea is like a virus, resilient, highly contagious. The smallest seed of an idea can grow. It can grow to define or destroy you.</p>
-  </div>
-</div>
-
