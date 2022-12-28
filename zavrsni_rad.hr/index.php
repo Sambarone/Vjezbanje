@@ -21,10 +21,16 @@
 
      <?php include_once 'dogadjaji.php' ?>
 
+     <?php  include_once 'najava.php'?>
+
+     <hr>
+
+     <?php include_once 'podnozje.php' ?>
+
 
 
 
     </div>
-    <?php include_once 'podnozje.php' ?>
+    <?php include_once 'skripte.php' ?>
   </body>
 </html>
