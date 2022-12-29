@@ -43,7 +43,7 @@ body{
 
  #najava{
 
-    color: blue; border-right: 5px solid red;
+    color: rgb(8, 8, 8); border-right: 5px solid red;
     margin-right: 5px;
  }
 
@@ -63,4 +63,15 @@ body{
 
 #ulaznica:hover{
     background-color: #198d47;
+}
+
+.title-bar {
+    background-color: rgba(245, 237, 239, 0.867);
+    color: black;
+    border-bottom: 3px solid red;
+}
+
+.nad
+{
+    background-color: rgba(245, 237, 239, 0.867);
 }
