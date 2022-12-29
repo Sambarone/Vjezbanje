@@ -47,3 +47,20 @@ body{
     margin-right: 5px;
  }
 
+#ulaznica{
+    
+    padding: 7px 15px;
+    border-radius: 18px;
+    color: #fff;
+    background-color: #1bba3d;
+    transition: background-color .3s ease;
+    cursor: pointer;
+    text-transform: uppercase;
+    
+}
+
+
+
+#ulaznica:hover{
+    background-color: #198d47;
+}

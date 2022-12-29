@@ -5,21 +5,25 @@
     <li class="is-active orbit-slide">
       <div class="docs-example-orbit-slide">
         <p><strong>This is dodgerblue.</strong> Lorem250</p>
+        <a class="button float-right" id="ulaznica" >Kupi ulaznice</a>
       </div>
     </li>
     <li class="orbit-slide">
       <div class="docs-example-orbit-slide">
         <p><strong>This is rebeccapurple.</strong> Lorem250</p>
+        <a class="button float-right" id="ulaznica" >Kupi ulaznice</a>
       </div>
     </li>
     <li class="orbit-slide">
       <div class="docs-example-orbit-slide">
         <p><strong>This is darkgoldenrod.</strong> Lorem250</p>
+        <a class="button float-right" id="ulaznica" >Kupi ulaznice</a>
       </div>
     </li>
     <li class="orbit-slide">
       <div class="docs-example-orbit-slide">
         <p><strong>This is lightseagreen.</strong> Lorem250</p>
+        <a class="button float-right" id="ulaznica" >Kupi ulaznice</a>
       </div>
     </li>
   </ul>
