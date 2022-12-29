@@ -1,6 +1,14 @@
 /*SELEKTOR elementa*/
 body{
-    background-color: rgb(72, 83, 169);
+    
+    
+    background-image: url('image.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+      
+
+
 }
 
 h1{

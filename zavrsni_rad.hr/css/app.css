@@ -1,11 +1,17 @@
 body{
-    background-color: rgba(171, 200, 84, 0.867);
+    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5));
 }
 
 .callout
 {
+    background-image: url('../pozadina.png');
+    background-size: 10%;
+    background-repeat: no-repeat;
+    background-position-x: 40%;
+    background-position-y: 80%;
+    background-blend-mode:calc(20%);
+
     background-color: rgba(245, 237, 239, 0.867);
-    background-image: "pozadina.jpg";
     min-height: 150px;
     width: 100%;
     padding-top: 30px;
@@ -18,10 +24,14 @@ body{
 }
 
 .orbit{
-    background-color: rgba(98, 165, 178, 0.867);
-    min-height: 300px;
     margin-top: 10px;
 
+}
+.orbit-slide{
+    background-image: url('../Bare.jpg'); 
+    background-repeat: no-repeat;
+    background-position: center;   
+    background-size: cover;
 }
 
 .orbit-bullets{
@@ -34,6 +44,7 @@ body{
 
 .cell {
     display: -webkit-box;
+    
 }
 
 .media-object

@@ -79,7 +79,7 @@
 <div class="grid-x grid-margin-x small-up-2 medium-up-3">
   <div class="cell">
     <div class="card">
-      <img src="Skoro.jpg">
+      <img src="Skoro.png">
       <div class="card-section">
         <h4>Miroslav Škoro</h4>
         <p>Stadion Gradski vrt, Osijek</p>
@@ -93,7 +93,7 @@
     <div class="card">
       <img src="Marginalci.jpg">
       <div class="card-section">
-        <h4>Predstava Hamleta </h4>
+        <h4>Marginalci </h4>
         <p>Gradsko kazalište Joza Ivakić, Vinkovci</p>
         <p>25.06.2023.</p>
         <p><a href="www.google.hr">Više informacija</a></p>  

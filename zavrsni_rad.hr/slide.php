@@ -1,16 +1,24 @@
 <div class="orbit" role="region" aria-label="Favorite Text Ever" data-orbit>
-  <ul class="orbit-container">
+  <ul class="orbit-container" >
     <button class="orbit-previous" aria-label="previous"><span class="show-for-sr">Previous Slide</span>&#9664;</button>
     <button class="orbit-next" aria-label="next"><span class="show-for-sr">Next Slide</span>&#9654;</button>
-    <li class="is-active orbit-slide">
-      <div class="docs-example-orbit-slide">
-        <p><strong>This is dodgerblue.</strong> Lorem250</p>
+    <li class="is-active orbit-slide" >
+      <div class="docs-example-orbit-slide" >
+        <br>
+        <br>
+        <br>
+      <h1>Goran Bare</h1>
+        <h3>20.1.2023.</h3>
+        <h4>Sportska dvorna Dom sportova</h4>
+        <br>
+        <br>
+        <br>
         <a class="button float-right" id="ulaznica" >Kupi ulaznice</a>
       </div>
     </li>
     <li class="orbit-slide">
       <div class="docs-example-orbit-slide">
-        <p><strong>This is rebeccapurple.</strong> Lorem250</p>
+        <p><strong>Drugi slajd</strong> Lorem250</p>
         <a class="button float-right" id="ulaznica" >Kupi ulaznice</a>
       </div>
     </li>
