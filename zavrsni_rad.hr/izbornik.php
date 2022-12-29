@@ -6,7 +6,7 @@
 <div class="top-bar" id="example-menu">
   <div class="top-bar-left">
     <ul class="dropdown menu" data-dropdown-menu>
-      <li class="menu-text">Site Title</li>
+      <li class="menu-text">Početna</li>
       <li class="has-submenu">
         <a href="#0">Događaji</a>
         <ul class="submenu menu vertical" data-submenu>
@@ -30,8 +30,8 @@
   </div>
   <div class="top-bar-right">
     <ul class="menu">
-      <li><input type="search" placeholder="Search"></li>
-      <li><button type="button" class="button">Search</button></li>
+      <li><input type="search" placeholder="Pretraži"></li>
+      <li><button type="button" class="button">Petraži događaje</button></li>
     </ul>
   </div>
 </div>

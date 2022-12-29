@@ -31,7 +31,7 @@
 <div class="media-object">
   <div class="media-object-section" id="najava">
     <h2>11.01.</h2>
-    <h3>nedjelja</h3>
+    <h3>srijeda</h3>
   </div>
   <div class="media-object-section">
     <h4>Mačak u čizmama</h4>
