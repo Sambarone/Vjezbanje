@@ -15,7 +15,8 @@
               <a class="button float-right">Prijava</a>
               <a class="button float-right">Registracija</a>
       </div>
-    
+      <?php  include_once 'izbornik.php' ?>
+      <br>
         <div class="regis">
             <p><strong>Registracija novih korisnika</strong></p>
 
