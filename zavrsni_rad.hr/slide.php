@@ -2,36 +2,48 @@
   <ul class="orbit-container" >
     <button class="orbit-previous" aria-label="previous"><span class="show-for-sr">Previous Slide</span>&#9664;</button>
     <button class="orbit-next" aria-label="next"><span class="show-for-sr">Next Slide</span>&#9654;</button>
-    <li class="is-active orbit-slide" >
-      <div class="docs-example-orbit-slide" >
-        <br>
-        <br>
-        <br>
-      <h1>Goran Bare</h1>
-        <h3>20.1.2023.</h3>
-        <h4>Sportska dvorna Dom sportova</h4>
-        <br>
-        <br>
-        <br>
+    <li class="is-active orbit-slide">
+      <div class="docs-example-orbit-slide" style="background-image: url('../Eros.jpg');" >
+       <pre>
+        <h1 style="color:white";>Eros Ramazzotti</h1>
+        <h3>20.1.2023. u 20:00 sati</h3>
+        <h4>Arena Zagreb</h4>
+       
         <a class="button float-right" id="ulaznica" >Kupi ulaznice</a>
+      </pre>
       </div>
     </li>
     <li class="orbit-slide">
-      <div class="docs-example-orbit-slide">
-        <p><strong>Drugi slajd</strong> Lorem250</p>
+      <div class="docs-example-orbit-slide" style="background-image: url('../Bebek.jpg')">
+      <pre>
+        <h1 style="color:white";>Željko Bebek</h1>
+        <h3>30.1.2023. u 20:00 sati</h3>
+        <h4>Koncertna dvorana Vatroslav Lisinski</h4>
+       
         <a class="button float-right" id="ulaznica" >Kupi ulaznice</a>
+      </pre>
       </div>
     </li>
     <li class="orbit-slide">
-      <div class="docs-example-orbit-slide">
-        <p><strong>This is darkgoldenrod.</strong> Lorem250</p>
+      <div class="docs-example-orbit-slide" style="background-image: url('../robie.jpg')">
+      <pre>
+        <h1 style="color:white";>Robie Wiliams</h1>
+        <h3>4.2.2023. u 20:00 sati</h3>
+        <h4>Arena Zagreb</h4>
+       
         <a class="button float-right" id="ulaznica" >Kupi ulaznice</a>
+      </pre>
       </div>
     </li>
     <li class="orbit-slide">
-      <div class="docs-example-orbit-slide">
-        <p><strong>This is lightseagreen.</strong> Lorem250</p>
+      <div class="docs-example-orbit-slide" style="background-image: url('../aco.jpg')">
+      <pre>
+        <h1 style="color:white; text-align: right;";>Aco Pejović</h1>
+        <h3 style="text-align: right;";>11.2.2023. u 20:00 sati</h3>
+        <h4 style="text-align: right;";>Arena Zagreb</h4>
+       
         <a class="button float-right" id="ulaznica" >Kupi ulaznice</a>
+      </pre>
       </div>
     </li>
   </ul>

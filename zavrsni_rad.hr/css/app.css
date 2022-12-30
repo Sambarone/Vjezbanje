@@ -4,6 +4,7 @@ body{
 
 .callout
 {
+    background-color: rgba(245, 237, 239, 0.867);
     background-image: url('../pozadina.png');
     background-size: 10%;
     background-repeat: no-repeat;
@@ -11,7 +12,7 @@ body{
     background-position-y: 80%;
     background-blend-mode:calc(20%);
 
-    background-color: rgba(245, 237, 239, 0.867);
+    
     min-height: 150px;
     width: 100%;
     padding-top: 30px;
@@ -28,20 +29,32 @@ body{
 
 }
 .orbit-slide{
-    background-image: url('../Bare.jpg'); 
-    background-repeat: no-repeat;
-    background-position: center;   
-    background-size: cover;
+    background-color: #1bba3d;
+    display:-webkit-inline-flex;
+
+}
+
+.pre h1,h3,h4
+{
+    color:antiquewhite;
+    
 }
 
 .orbit-bullets{
     position: relative;
 }
 
+
 .Dog{
     margin-top: 10px;
 }
 
+.docs-example-orbit-slide{
+    background-repeat: no-repeat;
+    background-position: center;   
+    background-size:cover;"
+    
+}
 .cell {
     display: -webkit-box;
     
