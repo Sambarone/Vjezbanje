@@ -26,12 +26,13 @@
 
      <hr>
 
-     <?php include_once 'podnozje.php' ?>
+     
 
 
 
 
     </div>
+    <?php include_once 'podnozje.php' ?>
     <?php include_once 'skripte.php' ?>
   </body>
 </html>

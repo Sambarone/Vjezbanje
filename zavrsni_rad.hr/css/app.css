@@ -100,3 +100,21 @@ body{
 .title-bar{
     background-color: rgba(245, 237, 239, 0.867);
 }
+.dno
+{
+    height: 200px;
+    background-color: wheat;
+    width:100%;
+    overflow: visible;
+}
+
+.breadcrumbs li
+{
+    font-size:small;
+}
+
+.thumbnail 
+{   display:inline-block;
+   margin-right:5px;
+   max-height: 50px;
+}
