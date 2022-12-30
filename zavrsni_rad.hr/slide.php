@@ -6,8 +6,8 @@
       <div class="docs-example-orbit-slide" style="background-image: url('../Eros.jpg');" >
        <pre>
         <h1 style="color:white";>Eros Ramazzotti</h1>
-        <h3>20.1.2023. u 20:00 sati</h3>
-        <h4>Arena Zagreb</h4>
+        <h3 style="color:white";>20.1.2023. u 20:00 sati</h3>
+        <h4 style="color:white";>Arena Zagreb</h4>
        
         <a class="button float-right" id="ulaznica" >Kupi ulaznice</a>
       </pre>
@@ -17,8 +17,8 @@
       <div class="docs-example-orbit-slide" style="background-image: url('../Bebek.jpg')">
       <pre>
         <h1 style="color:white";>Željko Bebek</h1>
-        <h3>30.1.2023. u 20:00 sati</h3>
-        <h4>Koncertna dvorana Vatroslav Lisinski</h4>
+        <h3 style="color:white";>30.1.2023. u 20:00 sati</h3>
+        <h4 style="color:white";>Koncertna dvorana Vatroslav Lisinski</h4>
        
         <a class="button float-right" id="ulaznica" >Kupi ulaznice</a>
       </pre>
@@ -28,8 +28,8 @@
       <div class="docs-example-orbit-slide" style="background-image: url('../robie.jpg')">
       <pre>
         <h1 style="color:white";>Robie Wiliams</h1>
-        <h3>4.2.2023. u 20:00 sati</h3>
-        <h4>Arena Zagreb</h4>
+        <h3 style="color:white";>4.2.2023. u 20:00 sati</h3>
+        <h4 style="color:white";>Arena Zagreb</h4>
        
         <a class="button float-right" id="ulaznica" >Kupi ulaznice</a>
       </pre>
@@ -39,8 +39,8 @@
       <div class="docs-example-orbit-slide" style="background-image: url('../aco.jpg')">
       <pre>
         <h1 style="color:white; text-align: right;";>Aco Pejović</h1>
-        <h3 style="text-align: right;";>11.2.2023. u 20:00 sati</h3>
-        <h4 style="text-align: right;";>Arena Zagreb</h4>
+        <h3 style=" color:white; text-align: right;";>11.2.2023. u 20:00 sati</h3>
+        <h4 style="color:white; text-align: right;";>Arena Zagreb</h4>
        
         <a class="button float-right" id="ulaznica" >Kupi ulaznice</a>
       </pre>

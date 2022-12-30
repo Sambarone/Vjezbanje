@@ -10,7 +10,7 @@
       
         
       <div class="callout clearfix">
-            <h3>KARTE.HR</h3>
+            <h3 style="color:black;">KARTE.HR</h3>
             <h6>Najveći online distributer ulaznica na području Hrvatske</h6>
               <a class="button float-right">Prijava</a>
               <a class="button float-right">Registracija</a>
