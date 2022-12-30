@@ -16,9 +16,14 @@
      <img class="thumbnail" src="hns.jpg" alt="HNS">
       <img class="thumbnail" src="lidl.jpg" alt="Lidl">
       <img class="thumbnail" src="arena.jpg" alt="Arena Zagreb">
+      <img class="thumbnail" src="hep.jpg" alt="HEP">
+
+
   
 </div>
 
 </div>
-
+  <hr>
+  <p class="copyr" style="padding-right:5px; text-align: right;">&copy; <?php echo date('Y'); ?> Sambarone </p>
+  
 </div>

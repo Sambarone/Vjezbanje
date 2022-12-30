@@ -13,7 +13,7 @@
             <h3 style="color:black;">KARTE.HR</h3>
             <h6>Najveći online distributer ulaznica na području Hrvatske</h6>
               <a class="button float-right">Prijava</a>
-              <a class="button float-right">Registracija</a>
+              <a href="registracija.php" class="button float-right" >Registracija</a>
       </div>
      
      <?php  include_once 'izbornik.php' ?>

@@ -29,8 +29,7 @@ body{
 
 }
 .orbit-slide{
-    background-color: #1bba3d;
-    display:-webkit-inline-flex;
+        display:-webkit-inline-flex;
 
 }
 
@@ -117,4 +116,17 @@ body{
 {   display:inline-block;
    margin-right:5px;
    max-height: 50px;
+
+}
+
+.partneri p
+{
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+    color: rgb(23, 62, 217);
+    
+}
+
+.regis{
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+    background-color: rgba(245, 237, 239, 0.867);
 }
