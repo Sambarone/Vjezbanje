@@ -51,7 +51,7 @@
   
   <div class="grid-x grid-margin-x">
     <fieldset class="cell medium-6" style="padding-left: 30px;">
-      <button class="button" type="submit" value="Submit">Potvrdi</button>
+      <button class="button" type="submit" value="Submit"><a href="korisnik.php?ime=Ivan&prezime=Sambol">Potvrdi</a></button>
     </fieldset>
     <fieldset class="cell medium-6">
       <button class="button" type="reset" value="Reset">Poništi</button>
