@@ -38,10 +38,11 @@
     <div class="cell small-12" style="padding-left: 30px;">
       <label>Lozinka
         <input type="password" id="password" placeholder="Unesite lozinku!" aria-describedby="exampleHelpTextPassword" required >
+        <a href="#0">Zaboravili ste lozinku?</a>
         <span class="form-error">
           Obavezan unos lozinke
         </span>
-      <p><a href="#0">Zaboravili ste lozinku?</a></p>
+      <p></p>
       </label>
     </div>
     

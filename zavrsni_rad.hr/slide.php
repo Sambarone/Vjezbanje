@@ -2,8 +2,8 @@
   <ul class="orbit-container" >
     <button class="orbit-previous" aria-label="previous"><span class="show-for-sr">Previous Slide</span>&#9664;</button>
     <button class="orbit-next" aria-label="next"><span class="show-for-sr">Next Slide</span>&#9654;</button>
-    <li class="is-active orbit-slide">
-      <div class="docs-example-orbit-slide" style="background-image: url('../Eros.jpg');" >
+    <li class="is-active orbit-slide" style="background-image: url('../Eros.jpg');" >
+      <div class="docs-example-orbit-slide" >
        <pre>
         <h1 style="color:white";>Eros Ramazzotti</h1>
         <h3 style="color:white";>20.1.2023. u 20:00 sati</h3>
@@ -13,8 +13,8 @@
       </pre>
       </div>
     </li>
-    <li class="orbit-slide">
-      <div class="docs-example-orbit-slide" style="background-image: url('../Bebek.jpg')">
+    <li class="orbit-slide" style="background-image: url('../Bebek.jpg')">
+      <div class="docs-example-orbit-slide" >
       <pre>
         <h1 style="color:white";>Željko Bebek</h1>
         <h3 style="color:white";>30.1.2023. u 20:00 sati</h3>
@@ -24,8 +24,8 @@
       </pre>
       </div>
     </li>
-    <li class="orbit-slide">
-      <div class="docs-example-orbit-slide" style="background-image: url('../robie.jpg')">
+    <li class="orbit-slide" style="background-image: url('../robie.jpg')">
+      <div class="docs-example-orbit-slide" >
       <pre>
         <h1 style="color:white";>Robie Wiliams</h1>
         <h3 style="color:white";>4.2.2023. u 20:00 sati</h3>
@@ -35,14 +35,13 @@
       </pre>
       </div>
     </li>
-    <li class="orbit-slide">
-      <div class="docs-example-orbit-slide" style="background-image: url('../aco.jpg')">
+    <li class="orbit-slide" style="background-image: url('../aco.jpg')">
+      <div class="docs-example-orbit-slide" >
       <pre>
         <h1 style="color:white; text-align: right;";>Aco Pejović</h1>
         <h3 style=" color:white; text-align: right;";>11.2.2023. u 20:00 sati</h3>
         <h4 style="color:white; text-align: right;";>Arena Zagreb</h4>
-       
-        <a class="button float-right" id="ulaznica" >Kupi ulaznice</a>
+       <a class="button float-right" id="ulaznica" >Kupi ulaznice</a>
       </pre>
       </div>
     </li>
