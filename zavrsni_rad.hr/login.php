@@ -18,27 +18,26 @@
       <?php  include_once 'izbornik.php' ?>
       <br>
         <div class="regis">
-            <p><strong>Prijava postojećih korisnika korisnika</strong></p>
+            <p style="padding-left: 30px;"><strong>Prijava postojećih korisnika korisnika</strong></p>
 
             <form data-abide novalidate>
   <div class="grid-x grid-margin-x">
     <div class="cell">
       <div data-abide-error class="alert callout" style="display: none;">
-        <p><i class="fi-alert"></i> There are some errors in your form.</p>
+        <p><i class="fi-alert"></i> Unjeli ste pogrešno ime ili lozinku</p>
       </div>
     </div>
   </div>
   <div class="grid-x grid-margin-x">
     
-    <div class="cell small-12">
+    <div class="cell small-12" style="padding-left: 30px;">
       <label>E-mai adresa
-        <input type="email" placeholder="Unesite svoj e mail adresu!" aria-describedby="exampleHelpTextNothing" required>
+        <input type="email" placeholder="Unesite svoju e mail adresu!" aria-describedby="exampleHelpTextNothing" required>
       </label>
-      <p class="help-text" id="exampleHelpTextNothing">This input is ignored by Abide using `data-abide-ignore`</p>
-    </div>
-    <div class="cell small-12">
+      </div>
+    <div class="cell small-12" style="padding-left: 30px;">
       <label>Lozinka
-        <input type="password" id="password" placeholder="yeti4preZ" aria-describedby="exampleHelpTextPassword" required >
+        <input type="password" id="password" placeholder="Unesite lozinku!" aria-describedby="exampleHelpTextPassword" required >
         <span class="form-error">
           I'm required!
         </span>
@@ -50,11 +49,11 @@
   
   
   <div class="grid-x grid-margin-x">
-    <fieldset class="cell medium-6">
-      <button class="button" type="submit" value="Submit">Submit</button>
+    <fieldset class="cell medium-6" style="padding-left: 30px;">
+      <button class="button" type="submit" value="Submit">Potvrdi</button>
     </fieldset>
     <fieldset class="cell medium-6">
-      <button class="button" type="reset" value="Reset">Reset</button>
+      <button class="button" type="reset" value="Reset">Poništi</button>
     </fieldset>
   </div>
 </form>
