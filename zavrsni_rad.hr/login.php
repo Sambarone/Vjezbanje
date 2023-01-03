@@ -23,7 +23,7 @@
             <form data-abide novalidate>
   <div class="grid-x grid-margin-x">
     <div class="cell">
-      <div data-abide-error class="alert callout" style="display: none;">
+      <div data-abide-error style="display: none; color:red; padding-left: 30px;">
         <p><i class="fi-alert"></i> Unjeli ste pogrešno ime ili lozinku</p>
       </div>
     </div>
@@ -31,7 +31,7 @@
   <div class="grid-x grid-margin-x">
     
     <div class="cell small-12" style="padding-left: 30px;">
-      <label>E-mai adresa
+      <label>E-mail adresa
         <input type="email" placeholder="Unesite svoju e mail adresu!" aria-describedby="exampleHelpTextNothing" required>
       </label>
       </div>
@@ -39,9 +39,9 @@
       <label>Lozinka
         <input type="password" id="password" placeholder="Unesite lozinku!" aria-describedby="exampleHelpTextPassword" required >
         <span class="form-error">
-          I'm required!
+          Obavezan unos lozinke
         </span>
-      <p class="help-text" id="exampleHelpTextPassword">Enter a password please.</p>
+      <p><a href="#0">Zaboravili ste lozinku?</a></p>
       </label>
     </div>
     

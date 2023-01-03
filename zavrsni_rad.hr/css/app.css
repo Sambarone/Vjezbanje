@@ -22,6 +22,8 @@ body{
 .button
 {
    margin-right: 5px;
+   background-color: #1bba3d;
+   border-radius: 10px;
 }
 
 .orbit{
@@ -52,7 +54,7 @@ body{
 }
 .cell {
     display: -webkit-box;
-    
+ 
 }
 
 .media-object
@@ -89,6 +91,7 @@ body{
     background-color: rgba(245, 237, 239, 0.867);
     color: black;
     border-bottom: 3px solid red;
+    border-radius: 5px;
 }
 
 .nad
@@ -96,9 +99,6 @@ body{
     background-color: rgba(245, 237, 239, 0.867);
 }
 
-.title-bar{
-    background-color: rgba(245, 237, 239, 0.867);
-}
 .dno
 {
     height: 200px;
@@ -133,4 +133,39 @@ body{
 }
 .regis p{
     padding-left: 30px;
+}
+
+.alert callout
+{
+    background-color: rgba(222, 23, 73, 0.867);
+    background-image: url('../pozadina.png');
+    background-size: 10%;
+    background-repeat: no-repeat;
+    background-position-x: 40%;
+    background-position-y: 80%;
+    background-blend-mode:calc(20%);
+
+    
+    min-height: 150px;
+    width: 100%;
+    padding-top: 30px;
+    margin-top: 10px;
+}
+
+
+.button:hover, .button:focus {
+    background-color: #149e40;
+    color: #fefefe; }
+
+.top-bar {
+    border-radius: 10px;
+}
+
+a {
+    color:rgb(13, 67, 13);
+}
+
+a:hover{
+    color:rgb(160, 22, 78);
+
 }
