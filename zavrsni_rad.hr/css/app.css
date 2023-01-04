@@ -4,14 +4,14 @@ body{
 
 .callout
 {
-    background-color: rgba(245, 237, 239, 0.867);
-    background-image: url('../pozadina.png');
+    background-color: rgba(245, 237, 239);
+    background-image: url("../pozadina.png");
     background-size: 10%;
     background-repeat: no-repeat;
-    background-position-x: 40%;
-    background-position-y: 80%;
-    background-blend-mode:calc(20%);
-
+    background-position-x: 15%;
+    background-position-y: 5%;
+    
+    border-radius: 10px;
     
     min-height: 150px;
     width: 100%;
@@ -160,5 +160,5 @@ a:hover{
 
 span {
     float: right;
-    
+      
 }

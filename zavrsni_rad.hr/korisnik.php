@@ -11,12 +11,12 @@
       <div class="callout clearfix">
             <h3 style="color:black;">KARTE.HR</h3>
             <h6>Najveći online distributer ulaznica na području Hrvatske</h6>
-            <span class="warning label"><a href="index.php">Odjava</a></span>
-            <span class="success label" style="padding-left:5px; margin-right: 10px;">Moji podaci</span>
+            <span style="padding-left:5px; margin-right: 10px; color:green;"><a href="index.php">Odjava</a></span>
+            <span style="padding-left:5px; margin-right: 10px; color:green;"><a href="#0">Moji podaci</a></span>
 
-            <span class="success label" style="padding-left:5px; margin-right: 10px;">
+            <span style="padding-left:5px; margin-right: 10px; ">
                 <?php echo $_GET['ime'].' '.$_GET['prezime'];?>
-            </span>
+          </span>
             
       </div>
      
