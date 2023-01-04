@@ -28,19 +28,16 @@
   <h1 class="visually-hidden">Headers examples</h1>
 
   <div class="container">
-    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4">
       <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+        <img src="pozadina.png" class="bi me-2" width="64" height="48" style="background-color: transparent;">
         <span class="fs-4">Karte.hr</span>
       </a>
 
-      <ul class="nav nav-pills">
-        <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-      </ul>
+      <div class="text-end">
+          <button type="button" class="btn btn-light text-dark me-2">Login</button>
+          <a href="sing.php"> <button type="button" class="btn btn-primary">Sign-up</button></a>
+        </div>
     </header>
   </div>
 
@@ -52,13 +49,14 @@
    <div class="px-3 py-2 border-bottom mb-3">
       <div class="container d-flex flex-wrap justify-content-center">
         <form class="col-12 col-lg-auto mb-2 mb-lg-0 me-lg-auto" role="search">
-          <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+        <ul class="nav nav-pills">
+        <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Početna</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Događaji</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Lokacije</a></li>
+        </ul>
         </form>
 
-        <div class="text-end">
-          <button type="button" class="btn btn-light text-dark me-2">Login</button>
-          <button type="button" class="btn btn-primary">Sign-up</button>
-        </div>
+        
       </div>
     </div>
   </header>
