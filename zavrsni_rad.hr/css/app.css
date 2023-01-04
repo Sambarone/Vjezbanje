@@ -134,6 +134,8 @@ body{
     font-family: "Trebuchet MS", Verdana, sans-serif;
     background-color: rgba(245, 237, 239, 0.867);
     padding-left: 30px;
+    border-radius: 10px;
+
 }
 .regis p{
     padding-left: 30px;
