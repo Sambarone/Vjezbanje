@@ -35,8 +35,8 @@
       </a>
 
       <div class="text-end">
-          <button type="button" class="btn btn-light text-dark me-2">Login</button>
-          <a href="sing.php"> <button type="button" class="btn btn-primary">Sign-up</button></a>
+          <button type="button" class="btn btn-light text-dark me-2">Registracija</button>
+          <a href="sing.php"> <button type="button" class="btn btn-primary">Prijava</button></a>
         </div>
     </header>
   </div>

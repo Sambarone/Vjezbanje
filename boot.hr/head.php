@@ -4,6 +4,5 @@
     <title>Početna strana Boota</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link href="css/headers.css" rel="stylesheet">
-    <link href="css/signin.css" rel="stylesheet">
     <link rel="stylesheet" href="css/app.css">
     
