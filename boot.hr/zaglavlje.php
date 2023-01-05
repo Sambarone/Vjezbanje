@@ -4,6 +4,6 @@
       <img src="pozadina.png" width="38" height="30" class="me-3" alt="Bootstrap">
       Karte.hr
     </h1>
-    <a href="../examples/cheatsheet-rtl/" class="ms-auto link-light" hreflang="ar">RTL cheatsheet</a>
-  </div>
+    <a href="../examples/cheatsheet-rtl/" class="ms-auto link-light" hreflang="ar"><button type="button" class="btn btn-outline-primary">Prijava</button></a>
+</div>
 </header>
