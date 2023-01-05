@@ -18,15 +18,63 @@
         
       </div>
 
+      
+
       <div>
         <div class="bd-example-snippet bd-code-snippet"><div class="bd-example">
-        <div class="bd-placeholder-img bd-placeholder-img-lg img-fluid" width="100%" height="250" style="background-image: url('pozadina.png'); " xmlns="https://static.jutarnji.hr/images/slike/2021/11/04/22614907.jpg" role="img" aria-label="Placeholder: Responsive image" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"/><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Responsive image</text></div>
+        <svg class="bd-placeholder-img bd-placeholder-img-lg img-fluid" width="100%" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Responsive image" preserveAspectRatio="xMidYMid slice" focusable="false" style="background-image: url('https://cdn.theatlantic.com/thumbor/bKC7yo8z1JGVahVQi7uqAa0CGqk=/0x0:2500x1406/1600x900/media/img/mt/2021/07/AP21172768584842/original.jpg'); background-position-y: center; background-size: 90%;"><title>Placeholder</title><text x="50%" y="50%" fill="#ff2200" dy=".6em">Mjesto gdje počinju snovi</text></svg>
 
         </div></div>
+
+        
 
       </div>
     </article>
 
+
+    <article class="my-3" id="navbar">
+      <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
+      </div>
+
+      <div>
+        <div class="bd-example-snippet bd-code-snippet"><div class="bd-example">
+        
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary mt-5">
+      <div class="container-fluid">
+
+          <div class="btn-group">
+          <button type="button" class="btn btn-primary">Događaji</button>
+          <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+            <span class="visually-hidden">Toggle Dropdown</span>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Kultura</a></li>
+            <li><a class="dropdown-item" href="#">Koncerti</a></li>
+            <li><a class="dropdown-item" href="#">Sport</a></li>
+          </ul>
+        </div><!-- /btn-group -->
+
+        <div class="btn-group">
+          <button type="button" class="btn btn-primary">Lokacije</button>
+          <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+            <span class="visually-hidden">Toggle Dropdown</span>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Zagreb</a></li>
+            <li><a class="dropdown-item" href="#">Osijek</a></li>
+            <li><a class="dropdown-item" href="#">Split</a></li>
+            <li><a class="dropdown-item" href="#">Rijeka</a></li>
+          </ul>
+        </div><!-- /btn-group -->
+
+
+      </div>
+        </nav>
+        </div></div>
+
+      </div>
+    </article>
   </section>
 
   <section id="forms">

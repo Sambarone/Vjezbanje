@@ -50,7 +50,7 @@
   -webkit-overflow-scrolling: touch;
 }
 
-.ulion
-{
-    background-image: url('https://static.jutarnji.hr/images/slike/2021/11/04/22614907.jpg');
-}
+.img-fluid {
+    max-width: 100%;
+    height: 350;
+  }
