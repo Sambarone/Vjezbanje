@@ -69,9 +69,20 @@
   justify-content: space-between;
 }
 
-h5,
-h6
+.carousel-caption h6, h5
 {
   color:rgb(255, 255, 00);
+
+}
+
+.card-body h5, h6
+{
+  color:rgb(0, 0, 0);
+
+}
+
+.card-body a
+{
+text-decoration: none;
 
 }

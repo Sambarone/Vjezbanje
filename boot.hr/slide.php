@@ -16,6 +16,7 @@
               <div class="carousel-caption d-none d-md-block">
                 <h5>14. veljače 2023. u 20:00 sati</h5>
                 <h6>Športski centar Gripe, Split</h6>
+                <button type="button" class="btn btn-warning">Kupi ulaznice</button>
               </div>
             </div>
 
@@ -25,6 +26,7 @@
               <div class="carousel-caption d-none d-md-block">
                 <h5>18. veljače 2023. u 19:00 sati</h5>
                 <h6>Zagrebačko gradsko kazalište “Komedija”</h6>
+                <button type="button" class="btn btn-warning">Kupi ulaznice</button>
               </div>
             </div>
 
@@ -35,6 +37,7 @@
               <div class="carousel-caption d-none d-md-block">
                 <h5>20. - 23. travnja 2023.</h5>
                 <h6>Grobnik (Rijeka)</h6>
+                <button type="button" class="btn btn-warning">Kupi ulaznice</button>
               </div>
             </div>
 
@@ -44,6 +47,7 @@
               <div class="carousel-caption d-none d-md-block">
                 <h5>23. travnja 2023. u 20:00 sati</h5>
                 <h6>Arena Zagreb</h6>
+                <button type="button" class="btn btn-warning">Kupi ulaznice</button>
               </div>
             </div>
 
@@ -53,6 +57,7 @@
               <div class="carousel-caption d-none d-md-block">
                 <h5>2. ožujka 2023. u 18:00 sati</h5>
                 <h6>Spaladium Arena, Split</h6>
+                <button type="button" class="btn btn-warning">Kupi ulaznice</button>
               </div>
             </div>
 
@@ -63,6 +68,7 @@
               <div class="carousel-caption d-none d-md-block">
                 <h5>14. ožujka 2023. </h5>
                 <h6>Sportska dvorana "Gradski vrt", Osijek</h6>
+                <button type="button" class="btn btn-warning">Kupi ulaznice</button>
               </div>
             </div>
           </div>
