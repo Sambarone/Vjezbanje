@@ -3,7 +3,9 @@
     <h1 class="d-flex align-items-center fs-4 text-white mb-0">
       <img src="pozadina.png" width="38" height="30" class="me-3" alt="Bootstrap">
       Karte.hr
-    </h1>
-    <a href="../examples/cheatsheet-rtl/" class="ms-auto link-light" hreflang="ar"><button type="button" class="btn btn-outline-primary">Prijava</button></a>
-</div>
+    </h1> 
+    <a href="" class="ms-auto link-light" hreflang="ar"><button type="button" class="btn btn-outline-info btn-md px-4 me-sm-3">Prijava</button></a>
+    <a href="" class="link-light" hreflang="ar"><button type="button" class="btn btn-outline-info btn-md px-4 me-sm-3">Registracija</button></a>
+
+  </div>
 </header>

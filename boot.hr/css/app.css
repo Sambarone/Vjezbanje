@@ -86,3 +86,17 @@
 text-decoration: none;
 
 }
+
+.text-muted {
+  --bs-text-opacity: 1;
+  color: #0210d9 !important;
+}
+
+footer
+{
+  background-color:silver;
+}
+
+.ms-auto {
+  float: right;
+}
