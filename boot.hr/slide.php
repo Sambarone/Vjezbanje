@@ -11,58 +11,58 @@
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: First slide" preserveAspectRatio="xMidYMid slice" focusable="false" style="background-image: url('https://www.tportal.hr/media/thumbnail/w1000/64928.jpeg'); background-position-y: center%;"><title>Placeholder</title><rect width="100%" height="100%" fill="#777" style="opacity:0.6"></rect><text x="50%" y="50%" fill="#ffddee" dy=".3em">Giuliano</text></svg>
+              <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: First slide" preserveAspectRatio="xMidYMid slice" focusable="false" style="background-image: url('https://img.24sata.hr/_eUf63tonWA4gAP9kqGuN8dbUZY=/1200x800/smart/media/images/2018-22/giuliano_2_foto_by__danijel_galic.jpg');"><title>Placeholder</title><rect width="100%" height="100%" fill="#777" style="opacity:0.6"></rect><text x="50%" y="50%" fill="#ffff00" dy=".3em">Giuliano</text></svg>
 
               <div class="carousel-caption d-none d-md-block">
                 <h5>14. veljače 2023. u 20:00 sati</h5>
-                <p>Športski centar Gripe, Split</p>
+                <h6>Športski centar Gripe, Split</h6>
               </div>
             </div>
 
             <div class="carousel-item">
-              <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: First slide" preserveAspectRatio="xMidYMid slice" focusable="false" style="background-image: url('https://www.kulturauzagrebu.hr/wp-content/uploads/2020/10/bra%C4%8Dna-terapija.jpeg'); background-position-y: center;"><title>Placeholder</title><rect width="100%" height="100%" fill="#777" style="opacity:0.6"></rect><text x="50%" y="50%" fill="#ffddee" dy=".3em">Barčna terapija - Luda kuća</text></svg>
+              <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: First slide" preserveAspectRatio="xMidYMid slice" focusable="false" style="background-image: url('https://www.kulturauzagrebu.hr/wp-content/uploads/2020/10/bra%C4%8Dna-terapija.jpeg'); background-position-y: center;"><title>Placeholder</title><rect width="100%" height="100%" fill="#777" style="opacity:0.6"></rect><text x="50%" y="50%" fill="#ffff00" dy=".3em">Barčna terapija - Luda kuća</text></svg>
 
               <div class="carousel-caption d-none d-md-block">
                 <h5>18. veljače 2023. u 19:00 sati</h5>
-                <p>Zagrebačko gradsko kazalište “Komedija”</p>
+                <h6>Zagrebačko gradsko kazalište “Komedija”</h6>
               </div>
             </div>
 
 
             <div class="carousel-item">
-              <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: First slide" preserveAspectRatio="xMidYMid slice" focusable="false" style="background-image: url('https://www.fia.com/sites/default/files/styles/content_details/public/news/main_image/01121003_392.jpg?itok=7XZetM0X'); background-position-y: center; background-size: 100%;"><title>Placeholder</title><rect width="100%" height="100%" fill="#777" style="opacity:0.5"></rect><text x="50%" y="50%" fill="#555" dy=".3em">First slide</text></svg>
+              <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: First slide" preserveAspectRatio="xMidYMid slice" focusable="false" style="background-image: url('https://cdn-1.motorsport.com/images/amp/6gpzE9x0/s6/kalle-rovanpera-jonne-halttune.jpg'); background-position-y: center; background-size: 100%;"><title>Placeholder</title><rect width="100%" height="100%" fill="#777" style="opacity:0.5"></rect><text x="50%" y="50%" fill="#ffff00" dy=".3em">WRC Rally Croatia 2023</text></svg>
 
               <div class="carousel-caption d-none d-md-block">
-                <h5>First slide label</h5>
-                <p>Some representative placeholder content for the first slide.</p>
+                <h5>20. - 23. travnja 2023.</h5>
+                <h6>Grobnik (Rijeka)</h6>
               </div>
             </div>
 
             <div class="carousel-item">
-              <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Second slide" preserveAspectRatio="xMidYMid slice" focusable="false" style="background-image: url('https://m.vecernji.hr/media/img/af/a0/ba9a7b90b114c5436fdb.jpeg'); background-position-y: center; background-size: 100%;"><title>Placeholder</title><rect width="100%" height="100%" fill="#666" style="opacity:0.6"></rect><text x="50%" y="50%" fill="#444" dy=".3em">Second slide</text></svg>
+              <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Second slide" preserveAspectRatio="xMidYMid slice" focusable="false" style="background-image: url('https://m.vecernji.hr/media/img/af/a0/ba9a7b90b114c5436fdb.jpeg'); background-position-y: center; background-size: 100%;"><title>Placeholder</title><rect width="100%" height="100%" fill="#666" style="opacity:0.6"></rect><text x="50%" y="50%" fill="#ffff00" dy=".3em">Jelena Rozga</text></svg>
 
               <div class="carousel-caption d-none d-md-block">
-                <h5>Second slide label</h5>
-                <p>Some representative placeholder content for the second slide.</p>
+                <h5>23. travnja 2023. u 20:00 sati</h5>
+                <h6>Arena Zagreb</h6>
               </div>
             </div>
 
             <div class="carousel-item">
-              <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Second slide" preserveAspectRatio="xMidYMid slice" focusable="false" style="background-image: url('https://image.dnevnik.hr/media/images/1920x1080/Dec2022/62445329-hrvatska-rukometna-reprezentacija.jpg'); background-position-y: center; background-size: 100%;"><title>Placeholder</title><rect width="100%" height="100%" fill="#666" style="opacity:0.6"></rect><text x="50%" y="50%" fill="#444" dy=".3em">Second slide</text></svg>
+              <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Second slide" preserveAspectRatio="xMidYMid slice" focusable="false" style="background-image: url('https://image.dnevnik.hr/media/images/1920x1080/Dec2022/62445329-hrvatska-rukometna-reprezentacija.jpg'); background-position-y: center; background-size: 100%;"><title>Placeholder</title><rect width="100%" height="100%" fill="#666" style="opacity:0.6"></rect><text x="50%" y="50%" fill="#ffff00" dy=".3em">Hrvatska - Mađarska </text></svg>
 
               <div class="carousel-caption d-none d-md-block">
-                <h5>Second slide label</h5>
-                <p>Some representative placeholder content for the second slide.</p>
+                <h5>2. ožujka 2023. u 18:00 sati</h5>
+                <h6>Spaladium Arena, Split</h6>
               </div>
             </div>
 
 
             <div class="carousel-item">
-              <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Third slide" preserveAspectRatio="xMidYMid slice" focusable="false" style="background-image: url('https://sibenskiportal.hr/wp-content/uploads/2014/08/drazen-zecicx.jpg'); background-position-y: center; background-size: 100%;"><title>Placeholder</title><rect width="100%" height="100%" fill="#555" style="opacity:0.5"></rect><text x="50%" y="50%" fill="#333" dy=".3em">Third slide</text></svg>
+              <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Third slide" preserveAspectRatio="xMidYMid slice" focusable="false" style="background-image: url('https://sibenskiportal.hr/wp-content/uploads/2014/08/drazen-zecicx.jpg'); background-position-y: center; background-size: 100%;"><title>Placeholder</title><rect width="100%" height="100%" fill="#555" style="opacity:0.5"></rect><text x="50%" y="50%" fill="#ffff00" dy=".3em">Dražen Zečić</text></svg>
 
               <div class="carousel-caption d-none d-md-block">
-                <h5>Third slide label</h5>
-                <p>Some representative placeholder content for the third slide.</p>
+                <h5>14. ožujka 2023. </h5>
+                <h6>Sportska dvorana "Gradski vrt", Osijek</h6>
               </div>
             </div>
           </div>

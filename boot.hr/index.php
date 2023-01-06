@@ -32,20 +32,7 @@
 
       <?php include_once 'slide.php' ?>
 
-
-        
-        
-
-        </div></div>
-
-      </div>
-    </article>
-  </section>
-
- 
-
- 
-</div>
+      <?php include_once 'dogadjaji.php' ?>
 
 
 

@@ -27,7 +27,7 @@
     <li class="orbit-slide" style="background-image: url('https://www.nacional.hr/wp-content/uploads/2020/12/93129934_10157455480154107_6146275784588787712_o.jpg');">
       <div class="docs-example-orbit-slide" >
       <pre>
-        <h1 style="color:white";>Robie Wiliams</h1>
+        <h1 style="color:white";>Robbie Williams</h1>
         <h3 style="color:white";>4.2.2023. u 20:00 sati</h3>
         <h4 style="color:white";>Arena Zagreb</h4>
        
