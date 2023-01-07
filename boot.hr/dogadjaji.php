@@ -2,6 +2,7 @@
     <div class="container">
 
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
         <div class="col">
           <div class="card shadow-sm">
             <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" style="background-image: url('https://www.lisinski.hr/media/CACHE/images/images/Maksim01_sRGB/c7047fe15e24e16b967514ab50f7262b.jpg'); background-size: contain;"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c" style="opacity:0.2"/></svg>
@@ -16,11 +17,12 @@
                 <div class="btn-group">
                 <button type="button" class="btn btn-outline-danger">Kupi ulaznice</button>
                 </div>
-                
-              </div>
+                 </div>
             </div>
           </div>
         </div>
+
+
         <div class="col">
           <div class="card shadow-sm">
             <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" style="background-image: url('https://teatarexit.hr/wp-content/uploads/2021/11/SAS8060_500x500.jpg'); background-size: 100%;"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c" style="opacity:0.2"/></svg>
@@ -40,6 +42,9 @@
             </div>
           </div>
         </div>
+
+
+
         <div class="col">
           <div class="card shadow-sm">
             <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" style="background-image: url('https://eurosong.hr/wp-content/uploads/2013/11/Sergej.jpg'); background-size: 100%;"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c" style="opacity:0.2"/></svg>
@@ -82,6 +87,10 @@
             </div>
           </div>
         </div>
+
+
+
+
         <div class="col">
           <div class="card shadow-sm">
             <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" style="background-image: url('https://zgexpress.net/wp-content/uploads/2019/05/zooloski-vrt-4.jpg'); background-size: 120%;"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c" style="opacity:0.2"/></svg>
@@ -102,6 +111,9 @@
             </div>
           </div>
         </div>
+
+
+
         <div class="col">
           <div class="card shadow-sm">
             <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" style="background-image: url('https://www.bug.hr/img/navijaci-hrvatske-nogometne-reprezentacije-dobivaju-svoj-digitalni-token-vatreni_79fs7_.jpg'); background-size: 120%;"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c" style="opacity:0.2"/></svg>
@@ -143,6 +155,10 @@
             </div>
           </div>
         </div>
+
+
+
+
         <div class="col">
           <div class="card shadow-sm">
             <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" style="background-image: url('https://bascarsijskenoci.bkc.ba/wp-content/uploads/2021/06/zabranjeno-pusenje.jpg'); background-size: 120%;"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c" style="opacity:0.2"/></svg>
@@ -163,6 +179,10 @@
             </div>
           </div>
         </div>
+
+
+
+
         <div class="col">
           <div class="card shadow-sm">
             <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" style="background-image: url('https://www.novilist.hr/wp-content/uploads/2021/11/6269116-717x478.jpg'); background-size: 120%;"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c" style="opacity:0.2"/></svg>
@@ -183,19 +203,12 @@
             </div>
           </div>
         </div>
+
+
+
       </div>
     </div>
   </div>
         
         
 
-        </div></div>
-
-      </div>
-    </article>
-
-
- 
-
- 
-</div>
