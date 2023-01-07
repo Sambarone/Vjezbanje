@@ -8,5 +8,7 @@
     <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/cheatsheet/">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/cheatsheet.css" rel="stylesheet">
+    <link href="css/modals.css" rel="stylesheet">
     <link href="css/app.css" rel="stylesheet">
+    
 
