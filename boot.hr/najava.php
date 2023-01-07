@@ -15,17 +15,56 @@
             <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample" style="">
               <div class="accordion-body">
               
-                     <div class="list-group">
-                        
-                         <a href="#" class="list-group-item list-group-item-action list-group-item-primary">A simple primary list group item</a>
-                        <a href="#" class="list-group-item list-group-item-action list-group-item-secondary">A simple secondary list group item</a>
-                         <a href="#" class="list-group-item list-group-item-action list-group-item-success">A simple success list group item</a>
-                           <a href="#" class="list-group-item list-group-item-action list-group-item-danger">A simple danger list group item</a>
-                             <a href="#" class="list-group-item list-group-item-action list-group-item-warning">A simple warning list group item</a>
-                           <a href="#" class="list-group-item list-group-item-action list-group-item-info">A simple info list group item</a>
-                           <a href="#" class="list-group-item list-group-item-action list-group-item-light">A simple light list group item</a>
-                          <a href="#" class="list-group-item list-group-item-action list-group-item-dark">A simple dark list group item</a>
-                    </div>
+        <table class="table table-sm table-bordered">
+          <thead>
+          <tr>
+            <th scope="col">Datum</th>
+            <th scope="col">Izvođač</th>
+            <th scope ="col" colspan="2">Lokacija</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <th scope="row">14. siječnja</th>
+            <td>Silente</td>
+            <td>Sportska dvorana Zamet, Rijeka</td>
+            <td><button type="button" class="btn btn-primary btn-sm">Kupi ulaznice</button></td>
+          </tr>
+          <tr>
+            <th scope="row">14. siječnja</th>
+            <td>Zlatko Pejaković</td>
+            <td>Hrvatski dom kulture, Vukovar</td>
+            <td><button type="button" class="btn btn-primary btn-sm">Kupi ulaznice</button></td>
+          </tr>
+          <tr>
+            <th scope="row">14. siječnja</th>
+            <td>Jasmin Stavros</td>
+            <td>Sportska dvorana Vijuš, Slavonski brod</td>
+            <td><button type="button" class="btn btn-primary btn-sm">Kupi ulaznice</button></td>
+          </tr>
+          </tbody>
+          <tr>
+            <th scope="row">14. siječnja</th>
+            <td>Mate Bulić</td>
+            <td>Sportska dvorana Gradski vrt, Osijek</td>
+            <td><button type="button" class="btn btn-primary btn-sm">Kupi ulaznice</button></td>
+          </tr>
+          </tbody>
+          <tr>
+            <th scope="row">15. siječnja</th>
+            <td>Pavel</td>
+            <td>Tvornica - dom kulture, Zagreb</td>
+            <td><button type="button" class="btn btn-primary btn-sm">Kupi ulaznice</button></td>
+          </tr>
+          </tbody>
+          <tr>
+            <th scope="row">15. siječnja</th>
+            <td>Jole</td>
+            <td>Sportska dvorana Baldekin, Šibenik</td>
+            <td><button type="button" class="btn btn-primary btn-sm">Kupi ulaznice</button></td>
+          </tr>
+          </tbody>
+        </table>
         
               </div>
             </div>
@@ -40,7 +79,58 @@
             </h4>
             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample" style="">
               <div class="accordion-body">
-               
+              <table class="table table-sm table-bordered">
+          <thead>
+          <tr>
+            <th scope="col">Datum</th>
+            <th scope="col">Izvođač</th>
+            <th scope ="col" colspan="2">Lokacija</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <th scope="row">14. siječnja</th>
+            <td>Split - Cedevita Olimpija (ABA liga)</td>
+            <td>Sportska dvorana Gripe, Split</td>
+            <td><button type="button" class="btn btn-primary btn-sm">Kupi ulaznice</button></td>
+          </tr>
+          <tr>
+            <th scope="row">14. siječnja</th>
+            <td>Cibona - Igokea (ABA liga) </td>
+            <td>Sportska dvorana Dražen Petrović, Zagreb</td>
+            <td><button type="button" class="btn btn-primary btn-sm">Kupi ulaznice</button></td>
+          </tr>
+          <tr>
+            <th scope="row">14. siječnja</th>
+            <td>Mornar - Barsko zlato (ABA liga) </td>
+            <td>Sporstska dvorana Višnjik, Zadar</td>
+            <td><button type="button" class="btn btn-primary btn-sm">Kupi ulaznice</button></td>
+          </tr>
+          </tbody>
+          <tbody>
+          <tr>
+            <th scope="row">18. siječnja</th>
+            <td>Gorica - Varaždin (1.HNL)</td>
+            <td>Gradski stadion, Velika Gorica</td>
+            <td><button type="button" class="btn btn-primary btn-sm">Kupi ulaznice</button></td>
+          </tr>
+          <tr>
+            <th scope="row">20. siječnja</th>
+            <td>Istra - Slaven Belupo (1.HNL) </td>
+            <td>Stadion Aldo Dorsina, Pula</td>
+            <td><button type="button" class="btn btn-primary btn-sm">Kupi ulaznice</button></td>
+          </tr>
+          <tr>
+            <th scope="row">21. siječnja</th>
+            <td>Osijek - Rijeka (1.HNL) </td>
+            <td>Stadion Gradski vrt, Osijek</td>
+            <td><button type="button" class="btn btn-primary btn-sm">Kupi ulaznice</button></td>
+          </tr>
+          </tbody>
+          
+        </table>
+
+
               </div>
             </div>
           </div>
@@ -54,7 +144,58 @@
             </h4>
             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample" style="">
               <div class="accordion-body">
-                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              <table class="table table-sm table-bordered">
+          <thead>
+          <tr>
+            <th scope="col">Datum</th>
+            <th scope="col">Izvođač</th>
+            <th scope ="col" colspan="2">Lokacija</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <th scope="row">14. siječnja</th>
+            <td>Ljepotica i Zvijer - gradsko kazalište Komedija</td>
+            <td>KD Vatroslav Lisinski, Zagreb</td>
+            <td><button type="button" class="btn btn-primary btn-sm">Kupi ulaznice</button></td>
+          </tr>
+          <tr>
+            <th scope="row">16. siječnja</th>
+            <td>Cabaret - Zagrepčanke i statičar</td>
+            <td>Klub kazališta komedija, Zagreb</td>
+            <td><button type="button" class="btn btn-primary btn-sm">Kupi ulaznice</button></td>
+          </tr>
+          <tr>
+            <th scope="row">17. siječnja</th>
+            <td>Cvit  samoće - koncertna predstava</td>
+            <td>Hrvatsko narodno kazalište, Osijek</td>
+            <td><button type="button" class="btn btn-primary btn-sm">Kupi ulaznice</button></td>
+          </tr>
+          </tbody>
+          <tr>
+            <th scope="row">17. siječnja</th>
+            <td>Treba se znati ponašati - monodrama</td>
+            <td>Satirično kazalište Kerempuh, Zagreb</td>
+            <td><button type="button" class="btn btn-primary btn-sm">Kupi ulaznice</button></td>
+          </tr>
+          </tbody>
+          <tr>
+            <th scope="row">21. siječnja</th>
+            <td>Mnogo vike nizašto - komedija</td>
+            <td>Gradsko kazalište Gavela, Zagreb</td>
+            <td><button type="button" class="btn btn-primary btn-sm">Kupi ulaznice</button></td>
+          </tr>
+          </tbody>
+          <tr>
+            <th scope="row">21. siječnja</th>
+            <td>Emigranti - komedija</td>
+            <td>Gradsko kazalište Joza Ivakić, Vinkovci</td>
+            <td><button type="button" class="btn btn-primary btn-sm">Kupi ulaznice</button></td>
+          </tr>
+          </tbody>
+        </table>  
+
+
               </div>
             </div>
           </div>
@@ -67,7 +208,56 @@
             </h4>
             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample" style="">
               <div class="accordion-body">
-                
+              <table class="table table-sm table-bordered">
+          <thead>
+          <tr>
+            <th scope="col">Datum</th>
+            <th scope="col">Izvođač</th>
+            <th scope ="col" colspan="2">Lokacija</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <th scope="row">14. siječnja</th>
+            <td>Planet Majmuna - predstava </td>
+            <td>Zoološki vrt Zagreb</td>
+            <td><button type="button" class="btn btn-primary btn-sm">Kupi ulaznice</button></td>
+          </tr>
+          <tr>
+            <th scope="row">14. siječnja</th>
+            <td>Obiteljski vikend</td>
+            <td>Bizovačke toplice, Bizovac</td>
+            <td><button type="button" class="btn btn-primary btn-sm">Kupi ulaznice</button></td>
+          </tr>
+          <tr>
+            <th scope="row">14. siječnja</th>
+            <td>Viteške igre srednjeg vijeka</td>
+            <td>Planinarski dom Jankovac, Papuk</td>
+            <td><button type="button" class="btn btn-primary btn-sm">Kupi ulaznice</button></td>
+          </tr>
+          </tbody>
+          <tr>
+            <th scope="row">14. siječnja</th>
+            <td>Božićna bajka obitelji Salaj</td>
+            <td>Imanje obitelji Salaj, Garešnica</td>
+            <td><button type="button" class="btn btn-primary btn-sm">Kupi ulaznice</button></td>
+          </tr>
+          </tbody>
+          <tr>
+            <th scope="row">15. siječnja</th>
+            <td>Obiteljski rafting na Zrmanji</td>
+            <td>Obrovac</td>
+            <td><button type="button" class="btn btn-primary btn-sm">Kupi ulaznice</button></td>
+          </tr>
+          </tbody>
+          <tr>
+            <th scope="row">21. siječnja</th>
+            <td>Plitvice Zimi</td>
+            <td>Plitvička jezera</td>
+            <td><button type="button" class="btn btn-primary btn-sm">Kupi ulaznice</button></td>
+          </tr>
+          </tbody>
+        </table>
               </div>
             </div>
           </div>
@@ -80,7 +270,56 @@
             </h4>
             <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample" style="">
               <div class="accordion-body">
-                
+              <table class="table table-sm table-bordered">
+          <thead>
+          <tr>
+            <th scope="col">Datum</th>
+            <th scope="col">Izvođač</th>
+            <th scope ="col" colspan="2">Lokacija</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <th scope="row">14. siječnja</th>
+            <td>Silente</td>
+            <td>Sportska dvorana Zamet, Rijeka</td>
+            <td><button type="button" class="btn btn-primary btn-sm">Kupi ulaznice</button></td>
+          </tr>
+          <tr>
+            <th scope="row">14. siječnja</th>
+            <td>Zlatko Pejaković</td>
+            <td>Hrvatski dom kulture, Vukovar</td>
+            <td><button type="button" class="btn btn-primary btn-sm">Kupi ulaznice</button></td>
+          </tr>
+          <tr>
+            <th scope="row">14. siječnja</th>
+            <td>Jasmin Stavros</td>
+            <td>Sportska dvorana Vijuš, Slavonski brod</td>
+            <td><button type="button" class="btn btn-primary btn-sm">Kupi ulaznice</button></td>
+          </tr>
+          </tbody>
+          <tr>
+            <th scope="row">14. siječnja</th>
+            <td>Mate Bulić</td>
+            <td>Sportska dvorana Gradski vrt, Osijek</td>
+            <td><button type="button" class="btn btn-primary btn-sm">Kupi ulaznice</button></td>
+          </tr>
+          </tbody>
+          <tr>
+            <th scope="row">15. siječnja</th>
+            <td>Pavel</td>
+            <td>Tvornica - dom kulture, Zagreb</td>
+            <td><button type="button" class="btn btn-primary btn-sm">Kupi ulaznice</button></td>
+          </tr>
+          </tbody>
+          <tr>
+            <th scope="row">15. siječnja</th>
+            <td>Jole</td>
+            <td>Sportska dvorana Baldekin, Šibenik</td>
+            <td><button type="button" class="btn btn-primary btn-sm">Kupi ulaznice</button></td>
+          </tr>
+          </tbody>
+        </table>
               </div>
             </div>
           </div>
@@ -93,7 +332,57 @@
             </h4>
             <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample" style="">
               <div class="accordion-body">
-                
+              <table class="table table-sm table-bordered">
+          <thead>
+          <tr>
+            <th scope="col">Datum</th>
+            <th scope="col">Izvođač</th>
+            <th scope ="col" colspan="2">Lokacija</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <th scope="row">14. siječnja</th>
+            <td>Silente</td>
+            <td>Sportska dvorana Zamet, Rijeka</td>
+            <td><button type="button" class="btn btn-primary btn-sm">Kupi ulaznice</button></td>
+          </tr>
+          <tr>
+            <th scope="row">14. siječnja</th>
+            <td>Zlatko Pejaković</td>
+            <td>Hrvatski dom kulture, Vukovar</td>
+            <td><button type="button" class="btn btn-primary btn-sm">Kupi ulaznice</button></td>
+          </tr>
+          <tr>
+            <th scope="row">14. siječnja</th>
+            <td>Jasmin Stavros</td>
+            <td>Sportska dvorana Vijuš, Slavonski brod</td>
+            <td><button type="button" class="btn btn-primary btn-sm">Kupi ulaznice</button></td>
+          </tr>
+          </tbody>
+          <tr>
+            <th scope="row">14. siječnja</th>
+            <td>Mate Bulić</td>
+            <td>Sportska dvorana Gradski vrt, Osijek</td>
+            <td><button type="button" class="btn btn-primary btn-sm">Kupi ulaznice</button></td>
+          </tr>
+          </tbody>
+          <tr>
+            <th scope="row">15. siječnja</th>
+            <td>Pavel</td>
+            <td>Tvornica - dom kulture, Zagreb</td>
+            <td><button type="button" class="btn btn-primary btn-sm">Kupi ulaznice</button></td>
+          </tr>
+          </tbody>
+          <tr>
+            <th scope="row">15. siječnja</th>
+            <td>Jole</td>
+            <td>Sportska dvorana Baldekin, Šibenik</td>
+            <td><button type="button" class="btn btn-primary btn-sm">Kupi ulaznice</button></td>
+          </tr>
+          </tbody>
+        </table> 
+              
               </div>
             </div>
           </div>
