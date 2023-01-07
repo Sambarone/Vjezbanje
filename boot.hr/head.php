@@ -9,6 +9,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/cheatsheet.css" rel="stylesheet">
     <link href="css/modals.css" rel="stylesheet">
+    <link href="css/navbar.css" rel="stylesheet">
     <link href="css/app.css" rel="stylesheet">
     
 

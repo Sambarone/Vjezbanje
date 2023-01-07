@@ -9,8 +9,11 @@
 
         <?php include_once 'zaglavlje.php'?>
 
-  
+          <?php include_once 'bocna.php'?>
+
             <div class="bd-cheatsheet container-fluid bg-body">
+
+            
   
                     <article class="my-3" id="navbar">
                         <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">

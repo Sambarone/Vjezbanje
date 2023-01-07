@@ -7,4 +7,6 @@
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/album/">
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/modals.css" rel="stylesheet">
+    <link href="css/navbar.css" rel="stylesheet">
     <link href="css/app.css" rel="stylesheet">
