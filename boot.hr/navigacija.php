@@ -8,8 +8,10 @@
           </button>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Kultura</a></li>
-            <li><a class="dropdown-item" href="#">Koncerti</a></li>
+            <li><a class="dropdown-item" href="#">Glazba</a></li>
             <li><a class="dropdown-item" href="#">Sport</a></li>
+            <li><a class="dropdown-item" href="#">Obitelj</a></li>
+            <li><a class="dropdown-item" href="#">Ostalo</a></li>
           </ul>
         </div><!-- /btn-group -->
 
@@ -23,6 +25,12 @@
             <li><a class="dropdown-item" href="#">Osijek</a></li>
             <li><a class="dropdown-item" href="#">Split</a></li>
             <li><a class="dropdown-item" href="#">Rijeka</a></li>
+            <li><a class="dropdown-item" href="#">Zadar</a></li>
+            <li><a class="dropdown-item" href="#">Šibenik</a></li>
+            <li><a class="dropdown-item" href="#">Vukovar</a></li>
+            <li><a class="dropdown-item" href="#">Vinkovci</a></li>
+            <li><a class="dropdown-item" href="#">Varaždin</a></li>
+
           </ul>
         </div><!-- /btn-group -->
       </div>

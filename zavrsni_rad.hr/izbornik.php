@@ -13,6 +13,8 @@
           <li><a href="#0">Sport</a></li>
           <li><a href="#0">Glazba</a></li>
           <li><a href="#0">Kultura</a></li>
+          <li><a href="#0">Obitelj</a></li>
+          <li><a href="#0">Ostalo</a></li>
         </ul>
       </li>
       <li class="has-submenu">
@@ -23,6 +25,9 @@
           <li><a href="#0">Rijeka</a></li>
           <li><a href="#0">Split</a></li>
           <li><a href="#0">Vinkovci</a></li>
+          <li><a href="#0">Vukovar</a></li>
+          <li><a href="#0">Zadar</a></li>
+          <li><a href="#0">Šibenik</a></li>
         </ul>
       </li>
       

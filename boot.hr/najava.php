@@ -83,7 +83,7 @@
           <thead>
           <tr>
             <th scope="col">Datum</th>
-            <th scope="col">Izvođač</th>
+            <th scope="col">Naziv</th>
             <th scope ="col" colspan="2">Lokacija</th>
           </tr>
           </thead>
@@ -148,7 +148,7 @@
           <thead>
           <tr>
             <th scope="col">Datum</th>
-            <th scope="col">Izvođač</th>
+            <th scope="col">Naziv</th>
             <th scope ="col" colspan="2">Lokacija</th>
           </tr>
           </thead>
@@ -212,7 +212,7 @@
           <thead>
           <tr>
             <th scope="col">Datum</th>
-            <th scope="col">Izvođač</th>
+            <th scope="col">Naziv</th>
             <th scope ="col" colspan="2">Lokacija</th>
           </tr>
           </thead>
@@ -276,7 +276,7 @@
           <thead>
           <tr>
             <th scope="col">Datum</th>
-            <th scope="col">Izvođač</th>
+            <th scope="col">Naziv</th>
             <th scope ="col" colspan="2">Lokacija</th>
           </tr>
           </thead>
