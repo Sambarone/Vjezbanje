@@ -262,67 +262,7 @@
             </div>
           </div>
 
-          <div class="accordion-item">
-            <h4 class="accordion-header" id="headingFive">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                Zabava
-              </button>
-            </h4>
-            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample" style="">
-              <div class="accordion-body">
-              <table class="table table-sm table-bordered">
-          <thead>
-          <tr>
-            <th scope="col">Datum</th>
-            <th scope="col">Izvođač</th>
-            <th scope ="col" colspan="2">Lokacija</th>
-          </tr>
-          </thead>
-          <tbody>
-          <tr>
-            <th scope="row">14. siječnja</th>
-            <td>Silente</td>
-            <td>Sportska dvorana Zamet, Rijeka</td>
-            <td><button type="button" class="btn btn-primary btn-sm">Kupi ulaznice</button></td>
-          </tr>
-          <tr>
-            <th scope="row">14. siječnja</th>
-            <td>Zlatko Pejaković</td>
-            <td>Hrvatski dom kulture, Vukovar</td>
-            <td><button type="button" class="btn btn-primary btn-sm">Kupi ulaznice</button></td>
-          </tr>
-          <tr>
-            <th scope="row">14. siječnja</th>
-            <td>Jasmin Stavros</td>
-            <td>Sportska dvorana Vijuš, Slavonski brod</td>
-            <td><button type="button" class="btn btn-primary btn-sm">Kupi ulaznice</button></td>
-          </tr>
-          </tbody>
-          <tr>
-            <th scope="row">14. siječnja</th>
-            <td>Mate Bulić</td>
-            <td>Sportska dvorana Gradski vrt, Osijek</td>
-            <td><button type="button" class="btn btn-primary btn-sm">Kupi ulaznice</button></td>
-          </tr>
-          </tbody>
-          <tr>
-            <th scope="row">15. siječnja</th>
-            <td>Pavel</td>
-            <td>Tvornica - dom kulture, Zagreb</td>
-            <td><button type="button" class="btn btn-primary btn-sm">Kupi ulaznice</button></td>
-          </tr>
-          </tbody>
-          <tr>
-            <th scope="row">15. siječnja</th>
-            <td>Jole</td>
-            <td>Sportska dvorana Baldekin, Šibenik</td>
-            <td><button type="button" class="btn btn-primary btn-sm">Kupi ulaznice</button></td>
-          </tr>
-          </tbody>
-        </table>
-              </div>
-            </div>
-          </div>
+          
 
           <div class="accordion-item">
             <h4 class="accordion-header" id="headingSix">
@@ -343,41 +283,41 @@
           <tbody>
           <tr>
             <th scope="row">14. siječnja</th>
-            <td>Silente</td>
-            <td>Sportska dvorana Zamet, Rijeka</td>
+            <td>Kiparevo svjedočenje vjere - izložba</td>
+            <td>Stari plac, Split</td>
             <td><button type="button" class="btn btn-primary btn-sm">Kupi ulaznice</button></td>
           </tr>
           <tr>
             <th scope="row">14. siječnja</th>
-            <td>Zlatko Pejaković</td>
-            <td>Hrvatski dom kulture, Vukovar</td>
+            <td>Cirkus Colorado</td>
+            <td>Školska dvorana Firule, Split</td>
             <td><button type="button" class="btn btn-primary btn-sm">Kupi ulaznice</button></td>
           </tr>
           <tr>
-            <th scope="row">14. siječnja</th>
-            <td>Jasmin Stavros</td>
-            <td>Sportska dvorana Vijuš, Slavonski brod</td>
-            <td><button type="button" class="btn btn-primary btn-sm">Kupi ulaznice</button></td>
-          </tr>
-          </tbody>
-          <tr>
-            <th scope="row">14. siječnja</th>
-            <td>Mate Bulić</td>
-            <td>Sportska dvorana Gradski vrt, Osijek</td>
+            <th scope="row">15. siječnja</th>
+            <td>INFO BIP</td>
+            <td>Zagrebački velesajam, Zagreb</td>
             <td><button type="button" class="btn btn-primary btn-sm">Kupi ulaznice</button></td>
           </tr>
           </tbody>
           <tr>
             <th scope="row">15. siječnja</th>
-            <td>Pavel</td>
-            <td>Tvornica - dom kulture, Zagreb</td>
+            <td>Konferencija kondicijskih trenera</td>
+            <td>Hotel Antunović, Zagreb</td>
             <td><button type="button" class="btn btn-primary btn-sm">Kupi ulaznice</button></td>
           </tr>
           </tbody>
           <tr>
             <th scope="row">15. siječnja</th>
-            <td>Jole</td>
-            <td>Sportska dvorana Baldekin, Šibenik</td>
+            <td>Avatar 2023. - premijera filma</td>
+            <td>Cinestar, Osijek</td>
+            <td><button type="button" class="btn btn-primary btn-sm">Kupi ulaznice</button></td>
+          </tr>
+          </tbody>
+          <tr>
+            <th scope="row">15. siječnja</th>
+            <td>Jordan Piterson - predavanje</td>
+            <td>Koncertna dvorana Vatroslav Lisinki, Zagreb</td>
             <td><button type="button" class="btn btn-primary btn-sm">Kupi ulaznice</button></td>
           </tr>
           </tbody>
