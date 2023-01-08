@@ -5,7 +5,7 @@
     <a href="index.php" class="link-light" hreflang="ar" style="text-decoration:none;">  Karte.hr</a>
     </h1> 
     <a href="login.php" class="ms-auto link-light" hreflang="ar"><button type="button" class="btn btn-outline-info btn-md px-4 me-sm-3">Prijava</button></a>
-    <a href="index3.php?ime=Ivan&prezime=Sambol" class="link-light" hreflang="ar"><button type="button" class="btn btn-outline-info btn-md px-4 me-sm-3">Registracija</button></a>
+    <a href="index3.php?ime=Ivan&prezime=Sambol" class="link-light" hreflang="ar"><button type="button" class="btn btn-outline-info btn-md px-4 me-sm-3" >Registracija</button></a>
 
   </div>
 </header>

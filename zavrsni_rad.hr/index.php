@@ -9,12 +9,7 @@
     <div class="grid-container">
       
         
-      <div class="callout clearfix">
-            <h3 style="color:black;">KARTE.HR</h3>
-            <h6>Najveći online distributer ulaznica na području Hrvatske</h6>
-              <a href="login.php" class="button float-right">Prijava</a>
-              <a href="registracija.php" class="button float-right" >Registracija</a>
-      </div>
+      <?php include_once 'glava.php'?>
      
      <?php  include_once 'izbornik.php' ?>
 
