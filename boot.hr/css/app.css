@@ -106,3 +106,18 @@ footer
   color: white;
 
 }
+
+.navbar > .container, .navbar > .container-fluid, .navbar > .container-sm, .navbar > .container-md, .navbar > .container-lg, .navbar > .container-xl, .navbar > .container-xxl
+{
+  border-radius: 10px 10px 5px 5px;
+}
+.navbar{
+  margin-bottom: 0px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.carousel-inner {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
