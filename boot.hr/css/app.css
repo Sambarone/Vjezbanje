@@ -95,6 +95,7 @@ text-decoration: none;
 footer
 {
   background-color:silver;
+  overflow: visible;
 }
 
 .ms-auto {
@@ -120,4 +121,13 @@ footer
 .carousel-inner {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
+}
+
+#dno
+{
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+
 }
