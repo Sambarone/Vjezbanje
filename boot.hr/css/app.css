@@ -143,3 +143,8 @@ footer
 .modal-header{
   justify-content:center;
 }
+
+.modal
+{
+  --bs-modal-bg:0;
+}
