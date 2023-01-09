@@ -1,0 +1,52 @@
+body{
+    background-color: bisque;
+    margin: 0;
+}
+.osnovni
+{
+    background-color: darkgray;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/001/189/271/non_2x/tickets-png.png');
+    background-size: 10%;
+    background-repeat: no-repeat;
+    background-position: 200px center;
+    width: 100%;
+    min-height: 150px;
+    margin: 0;
+    border: solid darkgray 5px;
+    
+    
+    
+    
+    
+}
+
+.osnovni h1,h3
+{
+    padding-left: 20px;
+}
+
+.osnovni h1
+{
+    padding-top: 20px;
+}
+
+.osnovni button{
+    color: white;
+    background-color: blue;
+    border-radius:10px;
+    border-color: blue;
+    float: right;
+    padding-left: 40px;
+    margin-right: 10px;
+    height: 40px;
+    margin-bottom: 10px;
+    position: relative;
+    background-image: url('https://w7.pngwing.com/pngs/184/113/png-transparent-user-profile-computer-icons-profile-heroes-black-silhouette.png');
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: 5px;
+}
+*, ::after,::before{
+    box-sizing:border-box;
+    
+}
