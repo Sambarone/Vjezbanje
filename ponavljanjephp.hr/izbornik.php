@@ -28,6 +28,7 @@
           <li><a href="jednakostvarijable.php">Jednakost Varijable</a></li>
           <li><a href="ugradjenevarijable.php?kljuc=31&t=2">Ugrađene Varijable</a></li>
           <li><a href="operatori.php">Osnovni operatori</a></li>
+          <li><a href="petljaif.php">If petlja</a></li>
 
 
         </ul>
