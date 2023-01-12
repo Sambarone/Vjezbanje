@@ -100,3 +100,4 @@ for (;;){
     echo 'prvi put';
     break;
 }
+

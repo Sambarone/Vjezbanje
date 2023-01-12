@@ -58,11 +58,11 @@ $n=5;
 $m=4;
 
 $matrica=[];
-for ($i=0;$i<$n;$i++){
+for ($i=1;$i<=$n;$i++){
 
     $red=[];
-    for ($j=0;$j<$m;$j++){
-        $red[]=$j*$i;
+    for ($j=1;$j<=$m;$j++){
+        $red[]=0;
     
     }
     $matrica[]=$red;
@@ -76,4 +76,20 @@ for ($i=0;$i<$n;$i++){
     echo '<br>';
 
 }
+$b=1;
 
+for ($i=$n-1;$i>=0;$i--){
+    for ($j=$m-1;$j>=0;$j--) {
+        $matrica[$i][$j]=$b;
+        $b++;
+         }
+     
+ 
+ }
+
+ for ($i=0;$i<$n;$i++){
+    for ($j=0;$j<$m;$j++) {
+        echo $matrica[$i][$j]. ' ';
+         }
+     echo '<br>';
+        } 
