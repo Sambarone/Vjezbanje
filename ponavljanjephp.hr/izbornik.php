@@ -33,6 +33,7 @@
           <li><a target=_blank href="isset.php">Isset</a></li>
           <li><a target=_blank href="switch.php">Switch</a></li>
           <li><a target=_blank href="forpetlja.php">For petlja</a></li>
+          <li><a target=_blank href="nizovi.php">Nizovi</a></li>
 
 
 
