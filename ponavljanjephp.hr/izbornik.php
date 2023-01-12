@@ -30,6 +30,8 @@
           <li><a href="operatori.php">Osnovni operatori</a></li>
           <li><a href="petljaif.php">If petlja</a></li>
           <li><a href="isset.php">Isset</a></li>
+          <li><a href="switch.php">Switch</a></li>
+
 
 
         </ul>
