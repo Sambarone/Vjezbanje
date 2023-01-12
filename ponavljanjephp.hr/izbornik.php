@@ -19,6 +19,7 @@
           <li><a target=_blank href="zadatak2.php?grad=Osijek">Zadatak 2</a></li>
           <li><a target=_blank href="ifvar.php">Zadatak 3</a></li>
           <li><a target=_blank href="zadatak4.php">Zadatak 4</a></li>
+          <li><a target=_blank href="zadatak5.php">Zadatak 5</a></li>
           
         </ul>
       </li>
