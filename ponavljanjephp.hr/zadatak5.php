@@ -1,7 +1,7 @@
 <?php
 
-$n=6;
-$m=5;
+$n=8;
+$m=7;
 
 $matrica=[];
 for ($i=1;$i<=$n;$i++){
@@ -21,9 +21,12 @@ for ($i=0;$i<$n;$i++){
         }
     echo '<br>';
     }
-
+if($n>$m){
 $broj_prolaza=$m*2;
-
+}
+else {
+    $broj_prolaza=($n*2)-1;
+}
 $broj=1;
 
 $redci=$n-1;
@@ -89,8 +92,8 @@ $n++;
   
 }
 
-$n=5;
-$m=4;
+$n=8;
+$m=7;
 for ($k=0;$k<$n;$k++){
     for ($z=0;$z<$m;$z++) {
         echo $matrica[$k][$z]. ' ';
