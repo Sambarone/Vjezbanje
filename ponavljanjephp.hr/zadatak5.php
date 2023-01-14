@@ -1,7 +1,7 @@
 <?php
 
-$n=8;
-$m=7;
+$n=isset($_GET['prvi'])?$_GET['prvi']:5;
+$m=isset($_GET['drugi'])?$_GET['drugi']:5;
 
 $matrica=[];
 for ($i=1;$i<=$n;$i++){
@@ -92,12 +92,14 @@ $n++;
   
 }
 
-$n=8;
-$m=7;
+$n=isset($_GET['prvi'])?$_GET['prvi']:5;
+$m=isset($_GET['drugi'])?$_GET['drugi']:5;
+echo '<table>';
 for ($k=0;$k<$n;$k++){
+    echo '<tr>';
     for ($z=0;$z<$m;$z++) {
-        echo $matrica[$k][$z]. ' ';
+        echo '<td style="text-align:right; padding: 10px;">' . $matrica[$k][$z]. '</td> ';
          }
-     echo '<br>';
+     echo '</tr>';
      }
- 
+ echo '</table>';
