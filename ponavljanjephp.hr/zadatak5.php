@@ -1,7 +1,7 @@
 <?php
 
-$n=5;
-$m=4;
+$n=6;
+$m=5;
 
 $matrica=[];
 for ($i=1;$i<=$n;$i++){
@@ -30,9 +30,10 @@ $redci=$n-1;
 $stupci=$m-1;
 $i=0;
 $j=0;
-$upis=0;;
+$upis=0;
 
-for($prolaz=1;$prolaz<$broj_prolaza;$prolaz++){
+
+for($prolaz=1;$prolaz<=$broj_prolaza;$prolaz++){
 if($prolaz%4===1){
     $upis=0;;
     for(;$i<$m;){
@@ -44,6 +45,7 @@ if($prolaz%4===1){
     $m=$i;
     $i++;
     echo $upis, '<br>';
+    
 }
 else if($prolaz%4===2){
     $upis=0;;
@@ -55,6 +57,7 @@ else if($prolaz%4===2){
         echo $upis, '<br>';
         $n=$j;
         $j++;
+        
 }
 else if($prolaz%4===3){
     $upis=0;
@@ -66,18 +69,23 @@ else if($prolaz%4===3){
     }
     echo $upis, '<br>';
     $stupci--;
+    
 
 }
 else if($prolaz%4===0){
     $upis=0;
     $redci--;
-for ($n;$n<$redci;$n++)
-
+for ($n;$n<$redci;$n++){
 $matrica[$n+1][$m]=$broj;
         $broj++;
         $upis++;
+        
 }
 echo $upis, '<br>';
+$n++;
+
+}
+
   
 }
 
