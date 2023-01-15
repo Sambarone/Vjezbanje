@@ -97,7 +97,8 @@ echo '<br>';
 
 //beskonačna petlja
 for (;;){
-    echo 'prvi put';
-    break;
+    echo 'unesi broj';
+   break;
+   
 }
 
