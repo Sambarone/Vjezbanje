@@ -20,6 +20,7 @@
           <li><a target=_blank href="ifvar.php">Zadatak 3</a></li>
           <li><a target=_blank href="zadatak4.php">Zadatak 4</a></li>
           <li><a target=_blank href="zadatak5.php?prvi=5&drugi=5">Zadatak 5</a></li>
+          <li><a target=_blank href="svemirskibrod.php">Svemirski brod</a></li>
           
         </ul>
       </li>
