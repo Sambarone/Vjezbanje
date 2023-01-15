@@ -4,23 +4,7 @@ $n=isset($_GET['prvi'])?$_GET['prvi']:5;
 $m=isset($_GET['drugi'])?$_GET['drugi']:5;
 
 $matrica=[];
-for ($i=1;$i<=$n;$i++){
 
-    $red=[];
-    for ($j=1;$j<=$m;$j++){
-        $red[]=0;
-    
-    }
-    $matrica[]=$red;
-
-}
-
-for ($i=0;$i<$n;$i++){
-   for ($j=0;$j<$m;$j++) {
-       echo $matrica[$i][$j]. ' ';
-        }
-    echo '<br>';
-    }
 if($n>$m){
 $broj_prolaza=$m*2;
 }
