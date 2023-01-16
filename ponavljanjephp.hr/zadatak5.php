@@ -31,7 +31,7 @@ if($prolaz%4===1){
     }
     $m=$i;
     $i++;
-    echo $upis, '<br>';
+    
     
 }
 else if($prolaz%4===2){
@@ -41,7 +41,7 @@ else if($prolaz%4===2){
         $broj++;
         $n--;
         $upis++;}
-        echo $upis, '<br>';
+        
         $n=$j;
         $j++;
         
@@ -54,7 +54,7 @@ else if($prolaz%4===3){
         $broj++;
         $upis++;
     }
-    echo $upis, '<br>';
+    
     $stupci--;
     
 
@@ -68,7 +68,7 @@ $matrica[$n+1][$m]=$broj;
         $upis++;
         
 }
-echo $upis, '<br>';
+
 $n++;
 
 }
