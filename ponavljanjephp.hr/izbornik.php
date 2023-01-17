@@ -37,6 +37,7 @@
           <li><a target=_blank href="forpetlja.php">For petlja</a></li>
           <li><a target=_blank href="beskonacnapetlja.php">Beskonacna petlja</a></li>
           <li><a target=_blank href="nizovi.php">Nizovi</a></li>
+          <li><a target=_blank href="post.php">post</a></li>
 
 
 
