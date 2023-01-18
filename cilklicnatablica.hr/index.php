@@ -29,7 +29,7 @@
           <div class="row g-3">
             <div class="col-sm-6">
               <label for="firstName" class="form-label">Redaka</label>
-              <input type="number" class="form-control" name="redak" placeholder="" value="5" min="1" max="10" required>
+              <input type="number" class="form-control" name="redak" placeholder="" value="<?php $n?>" min="1" max="10" required>
               <div class="invalid-feedback">
                 Unesi broj redaka
               </div>
@@ -37,7 +37,7 @@
 
             <div class="col-sm-6">
               <label for="lastName" class="form-label">Stupaca</label>
-              <input type="number" class="form-control" name="stupac" placeholder="" value="5" min="1" max="10" required>
+              <input type="number" class="form-control" name="stupac" placeholder="" value="<?php $m?>" min="1" max="10" required>
               <div class="invalid-feedback">
                 Unesi broj stupaca
               </div>
