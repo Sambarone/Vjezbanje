@@ -35,8 +35,16 @@
           <li><a target=_blank href="petljaif.php">If petlja</a></li>
           <li><a target=_blank href="isset.php">Isset</a></li>
           <li><a target=_blank href="switch.php">Switch</a></li>
+          <li><a href="">Petlje</a>
+          <ul>
           <li><a target=_blank href="forpetlja.php">For petlja</a></li>
           <li><a target=_blank href="beskonacnapetlja.php">Beskonacna petlja</a></li>
+          <li><a target=_blank href="whilepetlja.php">While petlja</a></li>
+          <li><a target=_blank href="dowhilepetlja.php">Do while petlja</a></li>
+          </ul>
+          
+          </li>
+          
           <li><a target=_blank href="nizovi.php">Nizovi</a></li>
           <li><a target=_blank href="zadatak6.php">Inkrement dekrement</a></li>
           
