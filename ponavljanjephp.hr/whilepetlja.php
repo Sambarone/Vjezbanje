@@ -38,6 +38,9 @@ while($broj>0){
 echo $brojac;
 
 
+echo '<hr>';
+
+
 $input = fopen("datoteka.txt", "r"); //otvaranje datoteke i čitanje
   
     // Display a line of the file until the end 
@@ -46,3 +49,30 @@ $input = fopen("datoteka.txt", "r"); //otvaranje datoteke i čitanje
         // Display each line
         echo fgets($input). "<br>";
     }
+
+/// druga verzija
+echo '<hr>';
+
+$ukupno=0;
+$najveci=0;
+
+$daototeka='datoteka.txt';          //keriranje varijable koja daje poveznicu na datoteku ili nešto slično
+if(file_exists($daototeka)){            //ako datoteka postoji 
+    $dat=fopen($daototeka, 'r');            //otvori ju i čitaj
+    while (($line = fgets($dat))!==false){
+        $i=(int)$line;
+        if($i!==0){
+            $ukupno+=$i;
+        }
+        else {
+            $ukupno=0;
+        }
+        if($najveci<$ukupno){
+            $najveci=$ukupno;
+        }
+    }
+    fclose($dat);
+}
+echo $najveci;
+
+// strlen ($line) vraća dužinu linije 
