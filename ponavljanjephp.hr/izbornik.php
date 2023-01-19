@@ -41,6 +41,7 @@
           <li><a target=_blank href="beskonacnapetlja.php">Beskonacna petlja</a></li>
           <li><a target=_blank href="whilepetlja.php">While petlja</a></li>
           <li><a target=_blank href="dowhilepetlja.php">Do while petlja</a></li>
+          <li><a target=_blank href="foreach.php">for each</a></li>
           </ul>
           
           </li>

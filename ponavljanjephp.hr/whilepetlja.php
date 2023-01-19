@@ -59,7 +59,7 @@ $najveci=0;
 $daototeka='datoteka.txt';          //keriranje varijable koja daje poveznicu na datoteku ili nešto slično
 if(file_exists($daototeka)){            //ako datoteka postoji 
     $dat=fopen($daototeka, 'r');            //otvori ju i čitaj
-    while (($line = fgets($dat))!==false){
+    while (($line = fgets($dat))!==false){      //dok ima nešto u datoteci
         $i=(int)$line;
         if($i!==0){
             $ukupno+=$i;
