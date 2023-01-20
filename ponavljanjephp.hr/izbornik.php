@@ -48,7 +48,7 @@
           
           <li><a target=_blank href="nizovi.php">Nizovi</a></li>
           <li><a target=_blank href="zadatak6.php">Inkrement dekrement</a></li>
-          
+          <li><a target=_blank href="forme.php">Forme</a></li>
           
 
         </ul>
@@ -62,7 +62,7 @@
           <li><a target=_blank href="ifvar.php">Zadatak 3</a></li>
           <li><a target=_blank href="zadatak4.php">Zadatak 4</a></li>
           <li><a target=_blank href="zadatak5.php?prvi=5&drugi=5">Zadatak 5</a></li>
-          <li><a  href="zadatak7.php">Zadatak 7</a></li>
+          <li><a target=_blank  href="zadatak7.php">Zadatak 7</a></li>
       
         </ul>
     </li>
