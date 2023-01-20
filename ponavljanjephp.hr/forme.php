@@ -1,6 +1,6 @@
 <?php
 
-if(isset($_POST)){
+if($_SERVER['REQUEST_METHOD']==='POST'){
     $pb=$_POST['pb'];
     $db=$_POST['db'];
 }

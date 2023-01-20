@@ -1,3 +1,21 @@
+<?php
+
+if($_SERVER['REQUEST_METHOD']==='POST'){
+  $redak=$_POST['redak'];
+  $stupac=$_POST['stupac'];
+}
+else{
+  $redak=' ';
+  $stupac=' ';
+}
+
+
+
+
+?>
+
+
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -18,7 +36,13 @@
       
     </header>
     
-<div class="container">
+
+
+
+
+
+
+    <div class="container">
   <main>
     
 
@@ -28,39 +52,39 @@
         <form method="POST" class="needs-validation" novalidate>
           <div class="row g-3">
             <div class="col-sm-6">
-              <label for="firstName" class="form-label">Redaka</label>
-              <input type="number" class="form-control" name="redak" placeholder=""  min="1" max="10" required>
+              <label for="redak" class="form-label">Redaka</label>
+              <input type="number" class="form-control" name="redak" value="<?=$redak?>"  min="1" max="10" required>
               <div class="invalid-feedback">
-                Unesi broj redaka
+                Unesi broj redaka između 1 i 10
               </div>
             </div>
 
             <div class="col-sm-6">
-              <label for="lastName" class="form-label">Stupaca</label>
-              <input type="number" class="form-control" name="stupac" placeholder=""  min="1" max="10" required>
+              <label for="stupac" class="form-label">Stupaca</label>
+              <input type="number" class="form-control" name="stupac" value="<?=$stupac?>"  min="1" max="10" required>
               <div class="invalid-feedback">
-                Unesi broj stupaca
+                Unesi broj stupaca između 1 i 10
               </div>
             </div>
 
             <?php
-$n=isset($_POST['redak'])?$_POST['redak']:5;
-$m=isset($_POST['stupac'])?$_POST['stupac']:5;
+$redak=isset($_POST['redak'])?$_POST['redak']:5;
+$stupac=isset($_POST['stupac'])?$_POST['stupac']:5;
 
 
 
 $matrica=[];
 
-if($n>$m){
-$broj_prolaza=$m*2;
+if($redak>$stupac){
+$broj_prolaza=$stupac*2;
 }
 else {
-    $broj_prolaza=($n*2)-1;
+    $broj_prolaza=($redak*2)-1;
 }
 $broj=1;
 
-$redci=$n-1;
-$stupci=$m-1;
+$redci=$redak-1;
+$stupci=$stupac-1;
 $i=0;
 $j=0;
 $upis=0;
@@ -69,34 +93,34 @@ $upis=0;
 for($prolaz=1;$prolaz<=$broj_prolaza;$prolaz++){
 if($prolaz%4===1){
     $upis=0;;
-    for(;$i<$m;){
-        $matrica[$n-1][$m-1]=$broj;
+    for(;$i<$stupac;){
+        $matrica[$redak-1][$stupac-1]=$broj;
         $broj++;
-        $m--;
+        $stupac--;
         $upis++;
     }
-    $m=$i;
+    $stupac=$i;
     $i++;
     
     
 }
 else if($prolaz%4===2){
     $upis=0;;
-    for(;$j<$n-1;){
-    $matrica[$n-2][$m]=$broj;
+    for(;$j<$redak-1;){
+    $matrica[$redak-2][$stupac]=$broj;
         $broj++;
-        $n--;
+        $redak--;
         $upis++;}
         
-        $n=$j;
+        $redak=$j;
         $j++;
         
 }
 else if($prolaz%4===3){
     $upis=0;
     
-   for($m;$m<$stupci;$m++){
-        $matrica[$n][$m+1]=$broj;
+   for($stupac;$stupac<$stupci;$stupac++){
+        $matrica[$redak][$stupac+1]=$broj;
         $broj++;
         $upis++;
     }
@@ -108,26 +132,26 @@ else if($prolaz%4===3){
 else if($prolaz%4===0){
     $upis=0;
     $redci--;
-for ($n;$n<$redci;$n++){
-$matrica[$n+1][$m]=$broj;
+for ($redak;$redak<$redci;$redak++){
+$matrica[$redak+1][$stupac]=$broj;
         $broj++;
         $upis++;
         
 }
 
-$n++;
+$redak++;
 
 }
 
   
 }
 
-$n=isset($_POST['redak'])?$_POST['redak']:5;
-$m=isset($_POST['stupac'])?$_POST['stupac']:5;
+$redak=isset($_POST['redak'])?$_POST['redak']:5;
+$stupac=isset($_POST['stupac'])?$_POST['stupac']:5;
 echo '<table>';
-for ($k=0;$k<$n;$k++){
+for ($k=0;$k<$redak;$k++){
     echo '<tr>';
-    for ($z=0;$z<$m;$z++) {
+    for ($z=0;$z<$stupac;$z++) {
         echo '<td style="text-align:right; padding: 10px;">' . $matrica[$k][$z]. '</td> ';
          }
      echo '</tr>';
