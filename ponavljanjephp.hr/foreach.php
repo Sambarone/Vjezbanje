@@ -24,8 +24,12 @@ foreach($niz2 as $kljuc=>$vrijednost){
 }
 
 // sve stavke server niza
+$slovo='b';
 echo '<hr>';
 foreach($_SERVER as $k=>$v){
-        if()
+        if(strpos(strtolower($k),$slovo)>0){
+            echo 'Kljuc '. str_replace($slovo, '<span style="font-weight: bold">'.$slovo.'</span>', strtolower($k)).
+             ' ima vrijednost '. $v. '<br>';
+        }
 
 }
