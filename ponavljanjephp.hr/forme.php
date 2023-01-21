@@ -16,11 +16,19 @@ if($_SERVER['REQUEST_METHOD']==='POST'){
     else{
       $rez=' ';
     }
+
+    if(isset($_POST['Voce'])){
+        $Voce=$_POST['Voce'];
+    }
+    else{
+      $Voce=' ';
+    }
 }
 else{
     $pb=' ';
     $db=' ';
     $rez=' ';
+    $Voce=' ';
 }
 
 
@@ -56,6 +64,18 @@ else{
             Drugi broj
             <input type="text" name="db" id="db" value="<?=$db?>">
         </label>
+
+        <input type="radio" name="Voce" id="Jabuka" 
+        value="Jabuka">
+        <label for="Jabuka">Jabuka</label> </br>
+        
+        <input type="radio" name="Voce" id="Kruska" 
+        value="Kruska">
+        <label for="Kruska">Kruška</label> <br>
+        <br>
+       <?=$Voce?>
+
+
     <h1><?=$rez?></h1>
         <input class="primary button expanded" type="submit" value="Izračunaj">
 

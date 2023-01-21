@@ -3,12 +3,14 @@
 if($_SERVER['REQUEST_METHOD']==='POST'){
   $redak=(int)$_POST['redak'];
   $stupac=(int)$_POST['stupac'];
+  
   if($redak===0){
-    $redak=0;
+    $redak=' ';
+    
   }
   if($stupac===0){
-    $stupac=0;
-  }
+    $stupac=' ';
+     }
 }
 else{
   $redak=' ';
@@ -18,7 +20,8 @@ else{
 
 $redak=isset($_POST['redak'])?(int)$_POST['redak']:5;
 $stupac=isset($_POST['stupac'])?(int)$_POST['stupac']:5;
-
+$poruka;
+$poruka1;
 ?>
 
 
@@ -61,14 +64,16 @@ $stupac=isset($_POST['stupac'])?(int)$_POST['stupac']:5;
             <div class="col-sm-6">
               <label for="redak" class="form-label">Redaka</label>
               <input type="text" class="form-control" name="redak" value="<?=$redak?>"  min="1" max="10" required>
+              <h1><?php echo $poruka1=''?></h1> 
               <div class="invalid-feedback">
-                Unesi broj redaka između 1 i 10
+               Unesi broj redaka između 1 i 10
               </div>
             </div>
 
             <div class="col-sm-6">
               <label for="stupac" class="form-label">Stupaca</label>
               <input type="text" class="form-control" name="stupac" value="<?=$stupac?>"  min="1" max="10" required>
+              <h1><?php echo $poruka=''?></h1> 
               <div class="invalid-feedback">
                 Unesi broj stupaca između 1 i 10
               </div>
