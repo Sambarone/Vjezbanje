@@ -29,6 +29,9 @@ if($_SERVER['REQUEST_METHOD']==='POST'){
     else {
       $povrce=[];
     }
+
+      $grad=$_POST['grad'];
+
 }
 else{
     $pb=' ';
@@ -36,6 +39,7 @@ else{
     $rez=' ';
     $Voce=' ';
     $povrce=[];
+    $grad=$gradovi[0];
 }
 
 
@@ -116,7 +120,16 @@ else{
 
             <hr>
             <label for="Grad">Grad</label>
-            <select name="grad" id="Osijek"></select>
+            <select name="grad" id="grad">
+              <?php foreach($gradovi as $g): ?>
+                <option 
+                <?php if($grad===$g):?>     
+          selected="selected"
+          <?php endif;?>
+                               
+                value="<?=$g?>"><?=$g?></option>
+                <?php endforeach; ?>
+            </select>
 
     <h1><?=$rez?></h1>
         <input class="primary button expanded" type="submit" value="Izračunaj">
