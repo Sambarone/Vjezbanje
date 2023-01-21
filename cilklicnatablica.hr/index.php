@@ -1,8 +1,14 @@
 <?php
 
 if($_SERVER['REQUEST_METHOD']==='POST'){
-  $redak=$_POST['redak'];
-  $stupac=$_POST['stupac'];
+  $redak=(int)$_POST['redak'];
+  $stupac=(int)$_POST['stupac'];
+  if($redak===0){
+    $redak=0;
+  }
+  if($stupac===0){
+    $stupac=0;
+  }
 }
 else{
   $redak=' ';
@@ -10,7 +16,8 @@ else{
 }
 
 
-
+$redak=isset($_POST['redak'])?(int)$_POST['redak']:5;
+$stupac=isset($_POST['stupac'])?(int)$_POST['stupac']:5;
 
 ?>
 
@@ -53,7 +60,7 @@ else{
           <div class="row g-3">
             <div class="col-sm-6">
               <label for="redak" class="form-label">Redaka</label>
-              <input type="number" class="form-control" name="redak" value="<?=$redak?>"  min="1" max="10" required>
+              <input type="text" class="form-control" name="redak" value="<?=$redak?>"  min="1" max="10" required>
               <div class="invalid-feedback">
                 Unesi broj redaka između 1 i 10
               </div>
@@ -61,15 +68,15 @@ else{
 
             <div class="col-sm-6">
               <label for="stupac" class="form-label">Stupaca</label>
-              <input type="number" class="form-control" name="stupac" value="<?=$stupac?>"  min="1" max="10" required>
+              <input type="text" class="form-control" name="stupac" value="<?=$stupac?>"  min="1" max="10" required>
               <div class="invalid-feedback">
                 Unesi broj stupaca između 1 i 10
               </div>
             </div>
 
             <?php
-$redak=isset($_POST['redak'])?$_POST['redak']:5;
-$stupac=isset($_POST['stupac'])?$_POST['stupac']:5;
+$redak=isset($_POST['redak'])?(int)$_POST['redak']:5;
+$stupac=isset($_POST['stupac'])?(int)$_POST['stupac']:5;
 
 
 
@@ -146,8 +153,8 @@ $redak++;
   
 }
 
-$redak=isset($_POST['redak'])?$_POST['redak']:5;
-$stupac=isset($_POST['stupac'])?$_POST['stupac']:5;
+$redak=isset($_POST['redak'])?(int)$_POST['redak']:5;
+$stupac=isset($_POST['stupac'])?(int)$_POST['stupac']:5;
 echo '<table>';
 for ($k=0;$k<$redak;$k++){
     echo '<tr>';

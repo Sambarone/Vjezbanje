@@ -1,12 +1,26 @@
 <?php
 
 if($_SERVER['REQUEST_METHOD']==='POST'){
-    $pb=$_POST['pb'];
-    $db=$_POST['db'];
+    $pb=(int)$_POST['pb'];
+    $db=(int)$_POST['db'];
+
+    if($pb===0){
+      $pb=' ';
+    }
+    if($db===0){
+      $db=' ';
+    }
+    if($pb!==' ' && $db!==' '){
+      $rez=$pb+$db;
+    }
+    else{
+      $rez=' ';
+    }
 }
 else{
     $pb=' ';
     $db=' ';
+    $rez=' ';
 }
 
 
@@ -42,7 +56,7 @@ else{
             Drugi broj
             <input type="text" name="db" id="db" value="<?=$db?>">
         </label>
-
+    <h1><?=$rez?></h1>
         <input class="primary button expanded" type="submit" value="Izračunaj">
 
         </form>
