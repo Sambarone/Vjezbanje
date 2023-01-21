@@ -31,6 +31,8 @@ if($_SERVER['REQUEST_METHOD']==='POST'){
     }
 
       $grad=$_POST['grad'];
+      $opis=$_POST['opis'];
+
 
 }
 else{
@@ -40,6 +42,8 @@ else{
     $Voce=' ';
     $povrce=[];
     $grad=$gradovi[0];
+    $opis=' ';
+
 }
 
 
@@ -130,6 +134,9 @@ else{
                 value="<?=$g?>"><?=$g?></option>
                 <?php endforeach; ?>
             </select>
+            <hr>
+            <label for="opis">Opis</label>
+            <textarea name="opis" id="opis" cols="30" rows="10"><?php echo $opis?></textarea>
 
     <h1><?=$rez?></h1>
         <input class="primary button expanded" type="submit" value="Izračunaj">
