@@ -16,8 +16,8 @@ if($_SERVER['REQUEST_METHOD']==='POST'){
 
 }
 else{
-  $redak='';
-  $stupac='';
+  $redak=5;
+  $stupac=5;
   $nacin=$nacini[0];
 }
 

@@ -63,6 +63,7 @@
           <li><a target=_blank href="zadatak4.php">Zadatak 4</a></li>
           <li><a target=_blank href="zadatak5.php?prvi=5&drugi=5">Zadatak 5</a></li>
           <li><a target=_blank  href="zadatak7.php">Zadatak 7</a></li>
+          <li><a target=_blank  href="teskizadatak.php">Teski zadatak</a></li>
       
         </ul>
     </li>
