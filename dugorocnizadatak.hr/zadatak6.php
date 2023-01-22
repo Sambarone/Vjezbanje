@@ -1,10 +1,9 @@
 <?php
 
 
-//$n=isset($_POST['redak'])?(int)$_POST['redak']:5;
-//$m=isset($_POST['stupac'])?(int)$_POST['stupac']:5;
-$n=5;
-$m=5;
+$n=isset($_POST['redak'])?(int)$_POST['redak']:5;
+$m=isset($_POST['stupac'])?(int)$_POST['stupac']:5;
+
 
 
 $matrica=[];

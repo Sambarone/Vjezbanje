@@ -5,9 +5,11 @@ if($_SERVER['REQUEST_METHOD']==='POST'){
   $stupac=(int)$_POST['stupac'];
   if($redak===0){
     $redak=' ';
+    
   }
   if($stupac===0){
     $stupac=' ';
+    
   }
 
   $nacin=$_POST['nacin'];
@@ -19,7 +21,8 @@ else{
   $nacin=$nacini[0];
 }
 
-
+$poruka='Broj redaka mora biti veći od 0';
+$poruka2='Broj stupaca mora biti veći od 0';
 
 ?>
 
@@ -46,9 +49,11 @@ else{
         <form action="<?php echo $_SERVER['PHP_SELF']?>" method="post">
           <input type="number" name="redak" id="redak" value="<?=$redak?>">
           <label for="redak">Redak</label>
+          <?php if($redak<=0){echo $poruka;}?>
           <br>
           <input type="number" name="stupac" id="stupac" value="<?=$stupac?>">
           <label for="stupac">Stupac</label>
+          <?php if($stupac<=0){echo $poruka2;}?>
           <br>
           <label for="nacin">Vrsta ispisa</label>
           <select name="nacin" id="nacin">
