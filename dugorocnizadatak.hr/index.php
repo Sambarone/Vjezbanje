@@ -1,5 +1,5 @@
 <?php
-$nacini=['Od gore', 'Od dolje', 'Spiralno']
+$nacini=['Od gore', 'Od dolje', 'Spiralno'];
 if($_SERVER['REQUEST_METHOD']==='POST'){
   $redak=(int)$_POST['redak'];
   $stupac=(int)$_POST['stupac'];
@@ -51,10 +51,16 @@ else{
           <label for="stupac">Stupac</label>
           <br>
           <label for="nacin">Vrsta ispisa</label>
-          <select name="nacin" id="nacin"
-          <?php foreach($nacini as $n): ?>
-            <option value="<?= $n?>"><?= $n?></option>
-          ></select>
+          <select name="nacin" id="nacin">
+          <?php foreach($nacini as $n):?>
+            <option 
+            <?php if($n===$nacin):?>
+              selected="selected"
+              <?php endif;?>
+                      
+            value="<?=$n?>"><?=$n?></option>
+          <?php endforeach; ?>
+            </select>
           
           <button class="button" type="submit" value="Submit">Izračunaj</button>
 
@@ -64,7 +70,22 @@ else{
       <div class="grid-x grid-padding-x">
         <div class="large-12 cell">
           <div class="callout">
-            <?php include_once 'zadatak5.php'?>
+            <?php 
+            
+            if($nacin==='Od gore'){
+            include_once 'zadatak6.php';
+          }
+            else if($nacin==='Od dolje'){
+
+              include_once 'zadatak7.php';
+            }
+                 
+            else {
+              include_once 'zadatak5.php';
+            }
+            ?>
+
+
           </div>
         </div>
       </div>
