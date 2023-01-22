@@ -1,4 +1,5 @@
 <?php
+$nacini=['Od gore', 'Od dolje', 'Spiralno']
 if($_SERVER['REQUEST_METHOD']==='POST'){
   $redak=(int)$_POST['redak'];
   $stupac=(int)$_POST['stupac'];
@@ -9,11 +10,13 @@ if($_SERVER['REQUEST_METHOD']==='POST'){
     $stupac=' ';
   }
 
+  $nacin=$_POST['nacin'];
 
 }
 else{
   $redak='';
   $stupac='';
+  $nacin=$nacini[0];
 }
 
 
@@ -47,6 +50,11 @@ else{
           <input type="number" name="stupac" id="stupac" value="<?=$stupac?>">
           <label for="stupac">Stupac</label>
           <br>
+          <label for="nacin">Vrsta ispisa</label>
+          <select name="nacin" id="nacin"
+          <?php foreach($nacini as $n): ?>
+            <option value="<?= $n?>"><?= $n?></option>
+          ></select>
           
           <button class="button" type="submit" value="Submit">Izračunaj</button>
 

@@ -4,12 +4,6 @@
 $n=isset($_POST['redak'])?(int)$_POST['redak']:5;
 $m=isset($_POST['stupac'])?(int)$_POST['stupac']:5;
 
-if($n===0){
-    $n='';
-}
-if($m===0){
-    $m=' ';
-}
 
 
 $matrica=[];
@@ -85,15 +79,9 @@ $n++;
   
 }
 
-$n=isset($_POST['redak'])?$_POST['redak']:5;
-$m=isset($_POST['stupac'])?$_POST['stupac']:5;
+$n=isset($_POST['redak'])?(int)$_POST['redak']:5;
+$m=isset($_POST['stupac'])?(int)$_POST['stupac']:5;
 
-if($n===0){
-    $n='';
-}
-if($m===0){
-    $m=' ';
-}
 
 
 
@@ -106,3 +94,4 @@ for ($k=0;$k<$n;$k++){
      echo '</tr>';
      }
  echo '</table>';
+
