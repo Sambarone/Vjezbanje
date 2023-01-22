@@ -33,6 +33,8 @@ if($_SERVER['REQUEST_METHOD']==='POST'){
       $grad=$_POST['grad'];
       $opis=$_POST['opis'];
 
+      $datum=$_POST['datum'];
+
 
 }
 else{
@@ -43,8 +45,17 @@ else{
     $povrce=[];
     $grad=$gradovi[0];
     $opis=' ';
+    $datum=date('Y-m-d',time());
 
 }
+
+//echo '<pre>';
+//print_r($_SERVER);
+//'</pre>';
+
+//echo '<pre>';
+//print_r($_FILES);
+//echo '</pre>';
 
 
 
@@ -67,7 +78,9 @@ else{
         <div class="large-12 cell">
           <div class='callout' id='tijelo'>
          
-          <form action="<?php echo $_SERVER['PHP_SELF']?>" method="post">
+          <form action="<?php echo $_SERVER['PHP_SELF']?>" 
+          method="post"
+          enctype="multipart/form-data">
         
         <label>
             Prvi broj
@@ -138,7 +151,17 @@ else{
             <label for="opis">Opis</label>
             <textarea name="opis" id="opis" cols="30" rows="10"><?php echo $opis?></textarea>
 
-    <h1><?=$rez?></h1>
+            <label for="slika1">Slika1</label>
+            <input type="file" name="slika1" id="slika1">
+            <br>
+
+            <label for="slika2">Slika2</label>
+            <input type="file" name="slika2" id="slika2">
+
+            <br>
+            <label for="datum">Datum</label>
+            <input type="date" name="datum" id="datum" value="<?=$datum?>">
+          <h1><?=$rez?></h1>
         <input class="primary button expanded" type="submit" value="Izračunaj">
 
         </form>
