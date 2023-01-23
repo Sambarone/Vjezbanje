@@ -1,13 +1,18 @@
 <?php
 
-$t='S';
-$g='X';
-$t2='s';
-$g2='x';
+$t='s';
+$g='<span style="color:red" >s</span>';
 $kljuc=[];
 $vrijednost=[];
 
-$niz='SxxSxx';
+$niz='pxxSxx';
+if(str_contains($niz,'p')){
+   echo 'ima  ga <hr>';
+}
+else{
+   echo 'nema ga <hr> ';
+}
+
 
 if(str_contains($niz,$t) or str_contains($niz,$g)){
    $niz=str_replace($t,'s',$niz);
@@ -20,43 +25,7 @@ else {
 }
 echo '<br>';
 
-$i=0;
+
 foreach ($_SERVER as $k=>$v){
-$kljuc[$i]=$k;
-$vrijednost[$i]=$v;
-$i++;
+echo $k. 'ima vrijednost '. $v. ' <br> ';
 }
-
-$j=0;
-foreach ($kljuc as $n){
-  if(str_contains($n,$t)){
-   $kljuc[$j]=str_replace($t, $g, $kljuc[$j]);
-}
-
-   if(str_contains($n,$t2)){
-      $kljuc[$j]=str_replace($t2, $g2,$kljuc[$j]);
-      
-      }
-         
-   $j++;
-   }
-
-   $k=0;
-foreach ($vrijednost as $n){
-  if(str_contains($n,$t)){
-   $vrijednost[$k]=str_replace($t, $g, $vrijednost[$k]);
-}
-
-   if(str_contains($n,$t2)){
-      $vrijednost[$k]=str_replace($t2, $g2,$vrijednost[$k]);
-      
-      }
-         
-   $k++;
-   }
-
-   $m=0;
-   foreach($kljuc as $n){
-      echo $kljuc[$m]. 'ima vrijednost '. $vrijednost[$m], '<br>';
-      $m++;
-   }
