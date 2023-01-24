@@ -49,6 +49,8 @@
           <li><a target=_blank href="nizovi.php">Nizovi</a></li>
           <li><a target=_blank href="zadatak6.php">Inkrement dekrement</a></li>
           <li><a target=_blank href="forme.php">Forme</a></li>
+          <li><a target=_blank href="funkcije.php">Funkcije</a></li>
+          <li><a target=_blank href="funkcije2.php">Funkcije vol 2</a></li>
           
 
         </ul>
