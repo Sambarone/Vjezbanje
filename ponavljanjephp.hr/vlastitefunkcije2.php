@@ -27,3 +27,9 @@ $p=new Pomocno();
 $p->setIme('Pero');
 //sleep(5);
 $p->ispis(2);
+
+
+echo Pomocno::validOib(12345678910)? 'Ok':'NO';
+
+// prijedlog javnog PHP repozitorija na gitu
+// generiranje n OIB valjanih brojeva prem https://regos.hr/app/uploads/2018/07/KONTROLA-OIB-a.pdf
