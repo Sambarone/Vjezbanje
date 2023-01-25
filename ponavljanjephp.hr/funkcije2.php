@@ -1,5 +1,13 @@
 <?php
 
+
+//Ovo je stari način rada s funkcijama,
+// kada su funkcije deklarirane u php datoteci
+// koja se učita i koriste se funkcije na način
+// da se samo pozovu imenom
+
+
+
 //ne prima parametre i ne vraća vrijednost
 function pozdravSvijetu(){
     echo '<hr> Hello world';
