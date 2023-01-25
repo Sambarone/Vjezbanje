@@ -57,7 +57,7 @@ function primBroj($broj){
 
 $brojac=0;
 $suma=0;
-for ($i=1;$brojac<13;$i++){
+for ($i=2;$brojac<13;$i++){
     if(primBroj($i)){
         $suma+=$i;
         $brojac++;
