@@ -2,14 +2,16 @@
 
 echo 'Generiranje OIB-a <hr>';
 
-$b=rand(0,9);
+
 $brojac=0;
+$niz=[];
+
 
 do{
-if($brojac>0){
-    $b=rand(0,9);
-}
-echo $b, '   ' ;
+$b=rand(0,9);
+$niz[$brojac]=$b;
+
+echo $b, '  je  niz '. $niz[$brojac]. '    ' ;
 if($brojac<1){
 $c=$b+10;}
 else {
@@ -36,6 +38,15 @@ if ($brojac===10){
         $f=11-$f;
     }
     echo $f, '<br>';
+    $niz[$brojac]=$f;
 }
 
 }while ($brojac<10);
+
+echo '<hr>';
+
+echo '<pre>';
+print_r($niz);
+echo '</pre>';
+
+echo $niz[0];
