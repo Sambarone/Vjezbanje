@@ -5,6 +5,9 @@ require_once 'Pomocno.php';
 
 
 
+$string=[];
+
+for ($i=0;$i<10;$i++){
 
 $brojac=0;
 $niz5=[];
@@ -45,16 +48,19 @@ if ($brojac===10){
 
 
 
-echo '<pre>';
-print_r($niz5);
-echo '</pre>';
 
-$string="";
+
+$string[$i]="";
 foreach($niz5 as $k=>$v){
-    $string=$string.$v;
+    $string[$i]=$string[$i].$v;
 }
 
-echo $string;
-echo '<br>';
+}
 
-echo Pomocno::validOib($string)? 'OK':'NO';
+
+foreach($string as $v){
+    echo $v;
+    echo '<br>';
+    
+}
+
