@@ -1,82 +1,103 @@
 <?php
+$nacini=['Od gore', 'Od dolje', 'Spiralno'];
+if($_SERVER['REQUEST_METHOD']==='POST'){
+  $redak=(int)$_POST['redak'];
+  $stupac=(int)$_POST['stupac'];
+  if($redak===0){
+    $redak=' ';
+    
+  }
+  if($stupac===0){
+    $stupac=' ';
+    
+  }
 
-$musko="Josip";
-$zensko="Mara";
-$niz=[];
-
-
-echo $musko. ' + '.$zensko. '<br>';
-//prebacivanje u jedan string i mala slova radi lakšeg brojanja
-$imena=strtolower($musko.$zensko);
-$imena=str_replace(' ','',$imena);
-echo $imena, 'ima znakova ', strlen($imena), '<br>';
-
-
-
-///prebacivanje stringova u brojeve
-
-for($i=0;$i<strlen($imena);$i++){
-    $brojac=1;
-    echo '<span style="color:red;">'.$imena[$i].'</span> <br>';
-    if($imena[$i]==(int)$imena[$i]){
-        continue;
-    }
-    for($j=$i+1;$j<strlen($imena);$j++){
-      if($imena[$i]===$imena[$j]){
-        $brojac++;
-      }
-    }
-      echo $brojac;
-      $imena=str_replace($imena[$i],$brojac,$imena);
-      echo '<br>';
-}
-
-
-
-echo $imena, 'ima znakova ', strlen($imena), '<br>';
-
-//
-$proba=[];
-
-for ($m=0;$m<strlen($imena);$m++){
-  $proba[$m]=(int)$imena[$m];
+  $nacin=$_POST['nacin'];
 
 }
-echo '<pre>';
-print_r($proba);
-echo '</pre>';
-
-$pom=[];
-$duzina=strlen($imena);
-
-
-do{
-$brojac=0;
-for ($i=0;$i<($duzina/2);$i++){
-  $pom[$brojac]=$proba[$i];
-  $proba[$i]=0;
-  $pom[$brojac]+=$proba[$duzina-1-$i];
-  $proba[$duzina-1-$i]=0;
-if($pom[$brojac]>=10){
-  $pom[$brojac+1]=$pom[$brojac]%10;
-  $pom[$brojac]=(int)($pom[$brojac]/10);
-  $brojac++;
+else{
+  $redak=5;
+  $stupac=5;
+  $nacin=$nacini[0];
 }
-$brojac++;
-}
-$duzina=$brojac;
-$proba=[];
-$proba=$pom;
-$pom=[];
-}while ($duzina>2);
+
+$poruka='Broj redaka mora biti veći od 0';
+$poruka2='Broj stupaca mora biti veći od 0';
+
+?>
 
 
-echo '<pre>';
-print_r($pom);
-echo '</pre>';
-echo $brojac;
+
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <?php include_once 'head.php'?>
+  </head>
+<body>
+
+    <div class="grid-container">
+    
+    
+    
+    <div class="grid-x grid-padding-x">
+        <div class="large-12 cell">
+          <h1>Ciklična tablica</h1>
+        </div>
+      </div>
+
+      <div class="callout primary">
+        <form action="<?php echo $_SERVER['PHP_SELF']?>" method="post">
+          <input type="number" name="redak" id="redak" value="<?=$redak?>">
+          <label for="redak">Redak</label>
+          <?php if($redak<=0){echo $poruka;}?>
+          <br>
+          <input type="number" name="stupac" id="stupac" value="<?=$stupac?>">
+          <label for="stupac">Stupac</label>
+          <?php if($stupac<=0){echo $poruka2;}?>
+          <br>
+          <label for="nacin">Vrsta ispisa</label>
+          <select name="nacin" id="nacin">
+          <?php foreach($nacini as $n):?>
+            <option 
+            <?php if($n===$nacin):?>
+              selected="selected"
+              <?php endif;?>
+                      
+            value="<?=$n?>"><?=$n?></option>
+          <?php endforeach; ?>
+            </select>
+          
+          <button class="button" type="submit" value="Submit">Izračunaj</button>
+
+      </form>
+    </div>
+
+      <div class="grid-x grid-padding-x">
+        <div class="large-12 cell">
+          <div class="callout">
+            <?php 
+            
+            if($nacin==='Od gore'){
+            include_once 'zadatak6.php';
+          }
+            else if($nacin==='Od dolje'){
+
+              include_once 'zadatak7.php';
+            }
+                 
+            else {
+              include_once 'zadatak5.php';
+            }
+            ?>
 
 
-echo '<pre>';
-print_r($proba);
-echo '</pre>';
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+    <?php include_once 'skripte.php'?>
+  </body>
+</html>
