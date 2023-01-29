@@ -53,6 +53,7 @@
           <li><a target=_blank href="funkcije2.php">Funkcije vol 2</a></li>
           <li><a target=_blank href="mojefunkcije.php">Moje funkcije</a></li>
           <li><a target=_blank href="vlastitefunkcije2.php">Korištenje vlastitih funkcija</a></li>
+          <li><a target=_blank href="rekurzija.php">Rekurzija</a></li>
           
 
         </ul>
