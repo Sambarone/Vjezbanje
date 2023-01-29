@@ -36,7 +36,7 @@
           <li><a target=_blank href="isset.php">Isset</a></li>
           <li><a target=_blank href="switch.php">Switch</a></li>
           <li><a href="">Petlje</a>
-          <ul>
+          <ul class="submenu menu vertical" data-submenu>
           <li><a target=_blank href="forpetlja.php">For petlja</a></li>
           <li><a target=_blank href="beskonacnapetlja.php">Beskonacna petlja</a></li>
           <li><a target=_blank href="whilepetlja.php">While petlja</a></li>
@@ -45,16 +45,29 @@
           </ul>
           
           </li>
+
+          <li><a href="">OOP</a>
+          <ul class="submenu menu vertical" data-submenu>
+          <li><a target=_blank href="klasaobjekt.php">Klasa objekt</a></li>
+          <li><a target=_blank href="ucahurivanje.php">Učahurivanje</a></li>
+          </ul>
+          
+          </li>
           
           <li><a target=_blank href="nizovi.php">Nizovi</a></li>
           <li><a target=_blank href="zadatak6.php">Inkrement dekrement</a></li>
           <li><a target=_blank href="forme.php">Forme</a></li>
-          <li><a target=_blank href="funkcije.php">Funkcije</a></li>
-          <li><a target=_blank href="funkcije2.php">Funkcije vol 2</a></li>
-          <li><a target=_blank href="mojefunkcije.php">Moje funkcije</a></li>
-          <li><a target=_blank href="vlastitefunkcije2.php">Korištenje vlastitih funkcija</a></li>
-          <li><a target=_blank href="rekurzija.php">Rekurzija</a></li>
+
+          <li><a href="">Funkcije</a>
+          <ul class="submenu menu vertical" data-submenu>
+                <li><a target=_blank href="funkcije.php">Funkcije</a></li>
+                <li><a target=_blank href="funkcije2.php">Funkcije vol 2</a></li>
+                <li><a target=_blank href="mojefunkcije.php">Moje funkcije</a></li>
+                <li><a target=_blank href="vlastitefunkcije2.php">Korištenje vlastitih funkcija</a></li>
+                <li><a target=_blank href="rekurzija.php">Rekurzija</a></li>
+          </ul>
           
+          </li>
 
         </ul>
     </li>
