@@ -1,8 +1,8 @@
 <?php
 
 
-$musko=isset($_POST['men'])?$_POST['men']:"Marko";
-$zensko=isset($_POST['women'])?$_POST['women']:"Maja";
+$musko=isset($_POST['on'])?$_POST['on']:" ";
+$zensko=isset($_POST['ona'])?$_POST['ona']:" ";
 
 
 $niz=[];
@@ -41,9 +41,6 @@ for ($m=0;$m<strlen($imena);$m++){
   $proba[$m]=(int)$imena[$m];
 
 }
-echo '<pre>';
-print_r($proba);
-echo '</pre>';
 
 $pom=[];
 $duzina=strlen($imena);
@@ -69,11 +66,16 @@ $proba=$pom;
 $pom=[];
 }while ($duzina>2);
 
-echo $brojac;
 
+/*
 echo '<pre>';
 print_r($proba);
 echo '</pre>';
+*/
+$rez=0;
 
-
+if (isset($_POST['on'])and isset($_POST['ona'])){
 $rez=$proba[0].$proba[1];
+}
+?>
+
