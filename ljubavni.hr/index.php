@@ -1,27 +1,42 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <?php include_once 'ljubav.php'?>
-    <form action="<?php echo $_SERVER['PHP_SELF']?> " method="post">
-    <input type="text" name="on" id="on">
-    <label for="on">Unesi njegovo ime</label>
-    <br>
-    
-    <input type="text" name="ona" id="ona">
-    <label for="ona">Unesi njegovo ime</label>
-    <button class="button" type="submit" value="Submit">Izračunaj</button>
-    </form>
-    <p>
-      <?php if((int)$rez>0){
-    echo $rez;
-      }
-    ?></p>
-    
-</body>
+  <head>
+    <?php include_once 'head.php'?>
+   
+  </head>
+  <body class="bg-light">
+  
+
+       
+  
+            <div class="bd-cheatsheet container-fluid bg-body">
+  
+                    <article class="my-3" id="navbar">
+                        <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
+                         </div>
+                           
+                                
+
+                        <div>
+                           <div class="bd-example-snippet bd-code-snippet">
+                              <div class="bd-example">
+                              <?php include_once 'forms.php'?>
+
+                              
+
+                              
+                              
+
+                              </div>
+                            </div>
+                          </div>
+              
+                    </article>
+
+
+            </div>
+        
+
+  
+  </body>
 </html>

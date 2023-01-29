@@ -75,7 +75,7 @@ echo '</pre>';
 $rez=0;
 
 if (isset($_POST['on'])and isset($_POST['ona'])){
-$rez=$proba[0].$proba[1];
+$rez=$proba[0].$proba[1].'%';
 }
 ?>
 
