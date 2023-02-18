@@ -41,6 +41,6 @@
             </div>
         
 
-  <?php include_once 'skripte.php' ?>
+  <?php // include_once 'skripte.php' ?>
   </body>
 </html>
