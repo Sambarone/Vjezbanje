@@ -6,7 +6,7 @@
 
 
 // $_SESSION['kljuc']='hello'; //ovo je asocijativni niz
-
+$email=isset($_GET['email'])?$_GET['email']:(isset($_COOKIE['email'])?$_COOKIE['email']:'');
 
 ?>
 
@@ -24,7 +24,9 @@ Autorizacija.hr <br>
 Putem sesion 
 
 <form action="autorizacija.php" method="post">
-<input type="text" name="email" placeholder="email" id="">
+<input type="text" name="email" 
+value="<?=$email?>"
+placeholder="email" id="">
 <input type="password" name="lozinka" id="">
 <input type="submit" value="Autoriziraj se">
 

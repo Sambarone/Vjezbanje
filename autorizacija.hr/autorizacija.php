@@ -6,8 +6,9 @@ if($_POST['email']==='edunova@edunova.hr' &&
     $_POST['lozinka']==='1234'){
     session_start();
     $_SESSION['auth']=true;
+    setcookie('email', $_POST['email']);
     header ('location: zasticeno.php');
 }
 else {
-    header ('location: index.php');
+    header ('location: index.php?email='.$_POST['email']);
 }
