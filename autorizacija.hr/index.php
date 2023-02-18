@@ -1,11 +1,11 @@
 <?php
 
-session_start();
+// session_start(); index je javni i njemu ne treba ni session start
 
 
 
 
-$_SESSION['kljuc']='hello'; //ovo je asocijativni niz
+// $_SESSION['kljuc']='hello'; //ovo je asocijativni niz
 
 
 ?>
@@ -22,5 +22,13 @@ $_SESSION['kljuc']='hello'; //ovo je asocijativni niz
 Javni dio   <br>
 Autorizacija.hr <br>
 Putem sesion 
+
+<form action="autorizacija.php" method="post">
+<input type="text" name="email" placeholder="email" id="">
+<input type="password" name="lozinka" id="">
+<input type="submit" value="Autoriziraj se">
+
+
+</form>
 </body>
 </html>
