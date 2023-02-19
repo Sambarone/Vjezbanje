@@ -23,7 +23,7 @@
                         <div>
                            <div class="bd-example-snippet bd-code-snippet">
                               <div class="bd-example">
-        
+                            
 
                               <?php include_once 'navigacija.php' ?>
                               <?php include_once 'slide.php' ?>

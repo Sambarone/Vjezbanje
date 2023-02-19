@@ -7,7 +7,8 @@
   <body class="bg-light">
   
 
-        <?php include_once 'zaglavlje3.php'?>
+        <?php include_once 'zaglavlje3.php';
+        ?>
 
   
             <div class="bd-cheatsheet container-fluid bg-body">

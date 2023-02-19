@@ -11,5 +11,5 @@
     <link href="css/modals.css" rel="stylesheet">
     <link href="css/navbar.css" rel="stylesheet">
     <link href="css/app.css" rel="stylesheet">
-    
+    <?php session_start(); ?>
 

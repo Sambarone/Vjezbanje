@@ -13,12 +13,12 @@
       <div class="modal-body p-5 pt-0">
         <form class="" action="autorizacija.php" method="post">
           <div class="form-floating mb-3">
-            <input type="email" class="form-control rounded-3" id="floatingInput" placeholder="name@example.com">
-            <label for="floatingInput">Adresa elektoničke pošte</label>
+            <input type="email" class="form-control rounded-3" id="email" name="email" placeholder="name@example.com">
+            <label for="email">Adresa elektoničke pošte</label>
           </div>
           <div class="form-floating mb-3">
-            <input type="password" class="form-control rounded-3" id="floatingPassword" placeholder="Password">
-            <label for="floatingPassword">Lozinka</label>
+            <input type="password" class="form-control rounded-3" id="lozinka" name="lozinka" placeholder="Password">
+            <label for="lozinka">Lozinka</label>
           </div>
           <button class="w-100 mb-2 btn btn-lg rounded-3 btn-primary" type="submit">Prijava</button>
                    
