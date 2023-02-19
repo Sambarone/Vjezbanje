@@ -1,7 +1,8 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <?php include_once 'head.php'?>
+    <?php include_once 'head.php';
+    $email=isset($_GET['email'])?$_GET['email']:(isset($_COOKIE['email'])?$_COOKIE['email']:' ')?>
    
   </head>
   <body class="bg-light">

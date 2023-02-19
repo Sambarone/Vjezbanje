@@ -9,7 +9,7 @@
           <a href="#" class="d-block link-light text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
           <?php 
           
-          echo $_SESSION['email'];?> <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">
+          echo $_SESSION['ime'].' '.$_SESSION['prezime'];?> <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">
           </a>
           <ul class="dropdown-menu text-small">
             <li><a class="dropdown-item" href="#">Moj profil</a></li>
