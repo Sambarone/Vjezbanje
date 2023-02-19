@@ -8,6 +8,9 @@
   
 
         <?php include_once 'zaglavlje3.php';
+        if (!$_SESSION['auth']){
+          header('location:  index.php');
+        }
         ?>
 
   

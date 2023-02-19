@@ -15,7 +15,7 @@
             <li><a class="dropdown-item" href="#">Moj profil</a></li>
             <li><a class="dropdown-item" href="#">Moje kupnje</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a href="index.php" class="dropdown-item" href="odjava.php">Odjava</a></li>
+            <li><a class="dropdown-item" href="odjava.php">Odjava</a></li>
           </ul>
         </div></a>
  
