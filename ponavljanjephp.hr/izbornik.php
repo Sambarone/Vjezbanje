@@ -78,7 +78,9 @@
         <ul class="submenu menu vertical" data-submenu>
           <li><a target=_blank href="spajanjenabazu.php">Spajanje na Bazu</a></li>
           <li><a target=_blank href="spajanjenabazu2.php">Spajanje na Bazu2</a></li>
-          <li><a target=_blank href="unosubazu.php">Unos u Bazu</a></li>
+          <li><a target=_blank href="unosubazu.php">Masovni u Bazu</a></li>
+          <li><a target=_blank href="unosubazu2.php">Masovni u Bazu2</a></li>
+          <li><a target=_blank href="unosOsoba.php">Masovni Osoba u Bazu</a></li>
 
 
 
