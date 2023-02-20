@@ -30,29 +30,51 @@
                                 
                             </form>
                             <?php
-                                $dsn='mysql:host=localhost;dbname=aplikacija;charest=utf8mb4';
+                                try{
+                                    $dsn='mysql:host=localhost;dbname=aplikacija;charest=utf8mb4';
                                 $veza=new PDO($dsn,'root','');
                                 //prepare metoda u kombinaciji s execute nas šiti od sql injection
                                 $izraz=$veza->prepare('select *from kategorija;');
                                 $izraz->execute();
                                 
                                 $rs=$izraz->fetchAll();
+                                foreach ($rs as $red):
+                                    ?>
+                                      <h1><?= $red['naziv'];?>, <?= $red['sifra'];?></h1>
+                                    <?php
+                                    endforeach;
+
+
+
+                                }catch (Exception $e){
+                                    switch($e->getCode()){
+                                            case 1049:
+                                                echo 'Provjerite naziv baze podataka';
+                                                break;
+                                             case 2002:
+                                                    echo 'Provjerite naziv računala ili domene baze podataka';
+                                                    break;
+                                            case 1045:
+                                                    echo 'Provjerite ime korisnika ili lozinku';
+                                                        break;
+                                            default:
+                                            echo 'Dogodio se problem, kontaktirajte nas na XXXXXX';
+                                                        break;
+                                            
+                                        
+
+
+                                    }
+                                    
+                                }
+
+
+                                
 
 
                                 
                                 ?>
-                                <pre>
-                                    <?php
-
-                                    foreach ($rs as $red):
-                                      ?>
-                                        <h1><?= $red['naziv'];?>, <?= $red['sifra'];?></h1>
-                                      <?php
-                                      endforeach;
-
-                                    print_r($rs); //ispis baze
-                                    ?>
-                                </pre>
+                               
                               
                               <?php include_once 'dno.php' ?>
 
