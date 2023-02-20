@@ -81,6 +81,7 @@
           <li><a target=_blank href="unosubazu.php">Masovni u Bazu</a></li>
           <li><a target=_blank href="unosubazu2.php">Masovni u Bazu2</a></li>
           <li><a target=_blank href="unosOsoba.php">Masovni Osoba u Bazu</a></li>
+          <li><a target=_blank href="formaunosubazu.php">Forma unos u Bazu</a></li>
 
 
 
