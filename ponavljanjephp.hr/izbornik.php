@@ -77,6 +77,9 @@
         <a href="#0">Rad s Bazom podataka</a>
         <ul class="submenu menu vertical" data-submenu>
           <li><a target=_blank href="spajanjenabazu.php">Spajanje na Bazu</a></li>
+          <li><a target=_blank href="spajanjenabazu2.php">Spajanje na Bazu2</a></li>
+          <li><a target=_blank href="unosubazu.php">Unos u Bazu</a></li>
+
 
 
         </ul>
