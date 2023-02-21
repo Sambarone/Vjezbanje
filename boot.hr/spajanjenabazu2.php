@@ -32,21 +32,27 @@
                             <?php
                                 try{
                                     $dsn='mysql:host=localhost;dbname=aplikacija;charest=utf8mb4';
-                                $veza=new PDO($dsn,'root','');
+                                    $parametri=[
+                                      PDO::ATTR_DEFAULT_FETCH_MODE=>PDO::FETCH_OBJ
+                                    ];
+                                $veza=new PDO($dsn,'root','', $parametri);
                                 //prepare metoda u kombinaciji s execute nas šiti od sql injection
                                 $izraz=$veza->prepare('select *from kategorija;');
                                 $izraz->execute();
                                 
-                                $rs=$izraz->fetchAll();
+                                $rs=$izraz->fetchAll();   //ovo se koristi kad nešto dohvaća inače ne treba
                                 foreach ($rs as $red):
                                     ?>
-                                      <h1><?= $red['naziv'];?>, <?= $red['sifra'];?></h1>
+                                      <h1><?= $red->naziv;?>, <?= $red->sifra;?></h1>
                                     <?php
                                     endforeach;
 
 
 
                                 }catch (Exception $e){
+                                 // echo '<pre>';
+                                 // print_r($e);
+                                 // echo '</pre>';
                                     switch($e->getCode()){
                                             case 1049:
                                                 echo 'Provjerite naziv baze podataka';

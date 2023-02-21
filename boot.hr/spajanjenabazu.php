@@ -30,6 +30,7 @@
                                 
                             </form>
                             <?php
+                            //Data source name
                                 $dsn='mysql:host=localhost;dbname=aplikacija;charest=utf8mb4';
                                 $veza=new PDO($dsn,'root','');
                                 //prepare metoda u kombinaciji s execute nas šiti od sql injection
@@ -46,7 +47,7 @@
 
                                     foreach ($rs as $red):
                                       ?>
-                                        <h1><?= $red['naziv'];?>, <?= $red['sifra'];?></h1>
+                                        <h1><?= $red['naziv'];?>, <?= $red['sifra'];?></h1> 
                                       <?php
                                       endforeach;
 
