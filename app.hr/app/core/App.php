@@ -16,9 +16,9 @@ class App{
 
      Log::info($dijelovi);
 
-     //idem razantani controler
+     //idem razaznati controler
      $controler='';
-     if(!isset($dijelovi[0]) or $dijelovi[0]===''){
+     if(!isset($dijelovi[0]) || $dijelovi[0]===''){
         $controler='IndexControler';
      }
      else {
@@ -29,7 +29,7 @@ class App{
 
      //idem razaznati metodu
      $metoda='';
-     if(!isset($dijelovi[1]) or $dijelovi[1]===''){
+     if(!isset($dijelovi[1]) || $dijelovi[1]===''){
         $metoda='index';
      }
      else {
@@ -37,6 +37,11 @@ class App{
      }
 
      Log::info($metoda);
+
+     $instanca= new $controler();
+        $instanca->$metoda();
+
+
 
      if((class_exists($controler) && method_exists($controler,$metoda))){
         //izvedi ju
