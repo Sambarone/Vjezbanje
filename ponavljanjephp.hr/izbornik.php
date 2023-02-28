@@ -101,6 +101,15 @@
 
         </ul>
       </li>
+
+      <li class="has-submenu">
+        <a href="#0">Proba</a>
+        <ul class="submenu menu vertical" data-submenu>
+          <li><a target=_blank href="proba.php">Proba 1</a></li>
+          
+
+        </ul>
+      </li>
     </ul>
   </div>
   <div class="top-bar-right">
